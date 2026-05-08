@@ -84,12 +84,12 @@ msgid "{0, plural, one {# comment} other {# comments}}"
 msgstr "{0, plural, one {# دیدگاه} other {# دیدگاه}}"
 
 #. placeholder {0}: result.errors.length
-#: packages/admin/src/components/WordPressImport.tsx:2107
+#: packages/admin/src/components/WordPressImport.tsx:2080
 msgid "{0, plural, one {# content error} other {# content errors}}"
 msgstr "{0, plural, one {# خطای محتوا} other {# خطای محتوا}}"
 
 #. placeholder {0}: result.imported
-#: packages/admin/src/components/WordPressImport.tsx:2083
+#: packages/admin/src/components/WordPressImport.tsx:2056
 msgid "{0, plural, one {# content item imported} other {# content items imported}}"
 msgstr "{0, plural, one {# مورد محتوا درون‌ریزی شد} other {# مورد محتوا درون‌ریزی شد}}"
 
@@ -106,12 +106,12 @@ msgid "{0, plural, one {# item} other {# items}}"
 msgstr "{0, plural, one {# مورد} other {# مورد}}"
 
 #. placeholder {0}: mediaResult.failed.length
-#: packages/admin/src/components/WordPressImport.tsx:2112
+#: packages/admin/src/components/WordPressImport.tsx:2085
 msgid "{0, plural, one {# media error} other {# media errors}}"
 msgstr "{0, plural, one {# خطای رسانه} other {# خطای رسانه}}"
 
 #. placeholder {0}: mediaResult.imported.length
-#: packages/admin/src/components/WordPressImport.tsx:2099
+#: packages/admin/src/components/WordPressImport.tsx:2072
 msgid "{0, plural, one {# media file imported} other {# media files imported}}"
 msgstr "{0, plural, one {# فایل رسانه درون‌ریزی شد} other {# فایل رسانه درون‌ریزی شد}}"
 
@@ -121,7 +121,7 @@ msgid "{0, plural, one {# media file} other {# media files}}"
 msgstr "{0, plural, one {# فایل رسانه} other {# فایل رسانه}}"
 
 #. placeholder {0}: navMenus.length
-#: packages/admin/src/components/WordPressImport.tsx:1764
+#: packages/admin/src/components/WordPressImport.tsx:1739
 msgid "{0, plural, one {# menu will be imported} other {# menus will be imported}}"
 msgstr "{0, plural, one {# فهرست درون‌ریزی خواهد شد} other {# فهرست درون‌ریزی خواهد شد}}"
 
@@ -131,7 +131,7 @@ msgid "{0, plural, one {# permission} other {# permissions}}"
 msgstr "{0, plural, one {# مجوز} other {# مجوز}}"
 
 #. placeholder {0}: mapping.postCount
-#: packages/admin/src/components/WordPressImport.tsx:2319
+#: packages/admin/src/components/WordPressImport.tsx:2292
 msgid "{0, plural, one {# post} other {# posts}}"
 msgstr "{0, plural, one {# نوشته} other {# نوشته}}"
 
@@ -146,7 +146,7 @@ msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# انتخاب‌شده} other {# انتخاب‌شده}}"
 
 #. placeholder {0}: result.skipped
-#: packages/admin/src/components/WordPressImport.tsx:2091
+#: packages/admin/src/components/WordPressImport.tsx:2064
 msgid "{0, plural, one {# skipped (already exists)} other {# skipped (already exist)}}"
 msgstr "{0, plural, one {# رد شد (از قبل وجود دارد)} other {# رد شد (از قبل وجود دارند)}}"
 
@@ -163,7 +163,7 @@ msgid "{0, plural, one {#{1} item} other {#{2} items}}"
 msgstr "{0, plural, one {#{1} مورد} other {#{2} مورد}}"
 
 #. placeholder {0}: fields.length
-#: packages/admin/src/components/ContentTypeEditor.tsx:597
+#: packages/admin/src/components/ContentTypeEditor.tsx:576
 msgid "{0, plural, one {field} other {fields}}"
 msgstr ""
 
@@ -174,7 +174,7 @@ msgid "{0} • {1}"
 msgstr ""
 
 #. placeholder {0}: bestMatch?.detected.siteTitle || "WordPress site"
-#: packages/admin/src/components/WordPressImport.tsx:1133
+#: packages/admin/src/components/WordPressImport.tsx:1142
 msgid "{0} detected"
 msgstr "{0} شناسایی شد"
 
@@ -200,12 +200,12 @@ msgstr "{0} اکنون فعال است"
 
 #. placeholder {0}: postType.count
 #. placeholder {1}: postType.suggestedCollection
-#: packages/admin/src/components/WordPressImport.tsx:1836
+#: packages/admin/src/components/WordPressImport.tsx:1809
 msgid "{0} items → {1}"
 msgstr "{0} مورد → {1}"
 
 #. placeholder {0}: analysis.postTypes .filter((pt) => selections[pt.name]?.enabled) .reduce((sum, pt) => sum + pt.count, 0)
-#: packages/admin/src/components/WordPressImport.tsx:1757
+#: packages/admin/src/components/WordPressImport.tsx:1732
 msgid "{0} items will be imported"
 msgstr "{0} مورد درون‌ریزی خواهد شد"
 
@@ -227,13 +227,13 @@ msgstr "پیش‌نمایش {0}"
 
 #. placeholder {0}: SYSTEM_FIELDS.length
 #. placeholder {1}: fields.length
-#. placeholder {2}: import { Badge, Button, Input, InputArea, Label, Select } from "@cloudflare/kumo"; import { DndContext, closestCenter, type DragEndEvent, KeyboardSensor, PointerSensor, useSensor, useSensors, } from "@dnd-kit/core"; import { arrayMove, SortableContext, sortableKeyboardCoordinates, useSortable, verticalListSortingStrategy, } from "@dnd-kit/sortable"; import { CSS } from "@dnd-kit/utilities"; import type { MessageDescriptor } from "@lingui/core"; import { msg, plural } from "@lingui/core/macro"; import { Trans, useLingui } from "@lingui/react/macro"; import { Plus, DotsSixVertical, Pencil, Trash, Database, FileText } from "@phosphor-icons/react"; import { useNavigate } from "@tanstack/react-router"; import * as React from "react"; import type { SchemaCollectionWithFields, SchemaField, CreateFieldInput, CreateCollectionInput, UpdateCollectionInput, } from "../lib/api"; import { cn } from "../lib/utils"; import { ArrowPrev } from "./ArrowIcons.js"; import { ConfirmDialog } from "./ConfirmDialog"; import { EditorHeader } from "./EditorHeader"; import { FieldEditor } from "./FieldEditor"; import { RouterLinkButton } from "./RouterLinkButton.js"; import { SaveButton } from "./SaveButton"; // Regex patterns for slug generation const SLUG_INVALID_CHARS_PATTERN = /[^a-z0-9]+/g; const SLUG_LEADING_TRAILING_PATTERN = /^_|_$/g; export interface ContentTypeEditorProps { collection?: SchemaCollectionWithFields; isNew?: boolean; isSaving?: boolean; onSave: (input: CreateCollectionInput | UpdateCollectionInput) => void; onAddField?: (input: CreateFieldInput) => void; onUpdateField?: (fieldSlug: string, input: CreateFieldInput) => void; onDeleteField?: (fieldSlug: string) => void; onReorderFields?: (fieldSlugs: string[]) => void; } interface SupportOptionDef { value: string; label: MessageDescriptor; description: MessageDescriptor; } const MODERATION_OPTIONS: Record<"all" | "first_time" | "none", MessageDescriptor> = { all: msg`All comments require approval`, first_time: msg`First-time commenters only`, none: msg`No moderation (auto-approve all)`, }; const SUPPORT_OPTIONS: SupportOptionDef[] = [ { value: "drafts", label: msg`Drafts`, description: msg`Save content as draft before publishing`, }, { value: "revisions", label: msg`Revisions`, description: msg`Track content history`, }, { value: "preview", label: msg`Preview`, description: msg`Preview content before publishing`, }, { value: "search", label: msg`Search`, description: msg`Enable full-text search on this collection`, }, ]; /** * System fields that exist on every collection * These are created automatically and cannot be modified */ interface SystemFieldDef { slug: string; label: MessageDescriptor; type: string; description: MessageDescriptor; } const SYSTEM_FIELDS: SystemFieldDef[] = [ { slug: "id", label: msg`ID`, type: "text", description: msg`Unique identifier (ULID)`, }, { slug: "slug", label: msg`Slug`, type: "text", description: msg`URL-friendly identifier`, }, { slug: "status", label: msg`Status`, type: "text", description: msg`draft, published, or archived`, }, { slug: "created_at", label: msg`Created At`, type: "datetime", description: msg`When the entry was created`, }, { slug: "updated_at", label: msg`Updated At`, type: "datetime", description: msg`When the entry was last modified`, }, { slug: "published_at", label: msg`Published At`, type: "datetime", description: msg`When the entry was published`, }, ]; /** * Content Type editor for creating/editing collections */ export function ContentTypeEditor({ collection, isNew, isSaving, onSave, onAddField, onUpdateField, onDeleteField, onReorderFields, }: ContentTypeEditorProps) { const { t } = useLingui(); const _navigate = useNavigate(); // Form state const [slug, setSlug] = React.useState(collection?.slug ?? ""); const [label, setLabel] = React.useState(collection?.label ?? ""); const [labelSingular, setLabelSingular] = React.useState(collection?.labelSingular ?? ""); const [description, setDescription] = React.useState(collection?.description ?? ""); const [urlPattern, setUrlPattern] = React.useState(collection?.urlPattern ?? ""); // SEO is managed via the separate `hasSeo` field; strip any legacy "seo" entry // so it isn't sent back on save (the API enum rejects it). const [supports, setSupports] = React.useState<string[]>( (collection?.supports ?? ["drafts", "revisions"]).filter((s) => s !== "seo"), ); // SEO state const [hasSeo, setHasSeo] = React.useState(collection?.hasSeo ?? false); // Comment settings state const [commentsEnabled, setCommentsEnabled] = React.useState( collection?.commentsEnabled ?? false, ); const [commentsModeration, setCommentsModeration] = React.useState<"all" | "first_time" | "none">( collection?.commentsModeration ?? "first_time", ); const [commentsClosedAfterDays, setCommentsClosedAfterDays] = React.useState( collection?.commentsClosedAfterDays ?? 90, ); const [commentsAutoApproveUsers, setCommentsAutoApproveUsers] = React.useState( collection?.commentsAutoApproveUsers ?? true, ); // Field editor state const [fieldEditorOpen, setFieldEditorOpen] = React.useState(false); const [editingField, setEditingField] = React.useState<SchemaField | undefined>(); const [fieldSaving, setFieldSaving] = React.useState(false); const [deleteFieldTarget, setDeleteFieldTarget] = React.useState<SchemaField | null>(null); const urlPatternValid = !urlPattern || urlPattern.includes("{slug}"); // Track whether form has unsaved changes const hasChanges = React.useMemo(() => { if (isNew) return slug && label; if (!collection) return false; return ( label !== collection.label || labelSingular !== (collection.labelSingular ?? "") || description !== (collection.description ?? "") || urlPattern !== (collection.urlPattern ?? "") || JSON.stringify([...supports].toSorted()) !== JSON.stringify(collection.supports.filter((s) => s !== "seo").toSorted()) || hasSeo !== collection.hasSeo || commentsEnabled !== collection.commentsEnabled || commentsModeration !== collection.commentsModeration || commentsClosedAfterDays !== collection.commentsClosedAfterDays || commentsAutoApproveUsers !== collection.commentsAutoApproveUsers ); }, [ isNew, collection, slug, label, labelSingular, description, urlPattern, supports, hasSeo, commentsEnabled, commentsModeration, commentsClosedAfterDays, commentsAutoApproveUsers, ]); // Auto-generate slug from plural label const handleLabelChange = (value: string) => { setLabel(value); if (isNew) { setSlug( value .toLowerCase() .replace(SLUG_INVALID_CHARS_PATTERN, "_") .replace(SLUG_LEADING_TRAILING_PATTERN, ""), ); } }; // Auto-generate plural label (and slug) from singular label const handleSingularLabelChange = (value: string) => { setLabelSingular(value); if (isNew) { const plural = value ? `${value}s` : ""; handleLabelChange(plural); } }; const handleSupportToggle = (value: string) => { setSupports((prev) => prev.includes(value) ? prev.filter((s) => s !== value) : [...prev, value], ); }; const handleSubmit = (e: React.FormEvent) => { e.preventDefault(); if (isNew) { onSave({ slug, label, labelSingular: labelSingular || undefined, description: description || undefined, urlPattern: urlPattern || undefined, supports, hasSeo, }); } else { onSave({ label, labelSingular: labelSingular || undefined, description: description || undefined, urlPattern: urlPattern || undefined, supports, hasSeo, commentsEnabled, commentsModeration, commentsClosedAfterDays, commentsAutoApproveUsers, }); } }; const handleFieldSave = async (input: CreateFieldInput) => { setFieldSaving(true); try { if (editingField) { onUpdateField?.(editingField.slug, input); } else { onAddField?.(input); } setFieldEditorOpen(false); setEditingField(undefined); } finally { setFieldSaving(false); } }; const handleEditField = (field: SchemaField) => { setEditingField(field); setFieldEditorOpen(true); }; const handleAddField = () => { setEditingField(undefined); setFieldEditorOpen(true); }; const isFromCode = collection?.source === "code"; const fields = collection?.fields ?? []; const sensors = useSensors( useSensor(PointerSensor, { activationConstraint: { distance: 8 } }), useSensor(KeyboardSensor, { coordinateGetter: sortableKeyboardCoordinates }), ); const handleDragEnd = (event: DragEndEvent) => { const { active, over } = event; if (!over || active.id === over.id) return; const oldIndex = fields.findIndex((f) => f.id === active.id); const newIndex = fields.findIndex((f) => f.id === over.id); if (oldIndex === -1 || newIndex === -1) return; const reordered = arrayMove(fields, oldIndex, newIndex); onReorderFields?.(reordered.map((f) => f.slug)); }; return ( <div className="space-y-6"> {/* Sticky header keeps the primary save action in view while users scroll through the settings + fields panels. The bottom-of-form save button is preserved below for keyboard / screen-reader users so DOM order still ends with a submit control. */} <EditorHeader leading={ <RouterLinkButton to="/content-types" aria-label={t`Back to Content Types`} variant="ghost" shape="square" icon={<ArrowPrev />} /> } actions={ !isFromCode && !isNew ? ( <SaveButton type="submit" form="content-type-editor-form" isDirty={!!hasChanges} isSaving={!!isSaving} disabled={!urlPatternValid} /> ) : null } > <h1 className="text-2xl font-bold truncate"> {isNew ? t`New Content Type` : collection?.label} </h1> {!isNew && ( <p className="text-kumo-subtle text-sm"> <code className="bg-kumo-tint px-1.5 py-0.5 rounded">{collection?.slug}</code> {isFromCode && ( <span className="ms-2 text-purple-600 dark:text-purple-400">{t`Defined in code`}</span> )} </p> )} </EditorHeader> {isFromCode && ( <div className="rounded-lg border border-purple-200 dark:border-purple-800 bg-purple-50 dark:bg-purple-950 p-4"> <div className="flex items-center space-x-2"> <FileText className="h-5 w-5 text-purple-600 dark:text-purple-400" /> <p className="text-sm text-purple-700 dark:text-purple-300"> {t`This collection is defined in code. Some settings cannot be changed here. Edit your live.config.ts file to modify the schema.`} </p> </div> </div> )} <div className="grid grid-cols-1 lg:grid-cols-3 gap-6"> {/* Settings form */} <div className="lg:col-span-1"> <form id="content-type-editor-form" onSubmit={handleSubmit} className="space-y-4"> <div className="rounded-lg border p-4 space-y-4"> <h2 className="font-semibold">{t`Settings`}</h2> <Input label={t`Label (Singular)`} value={labelSingular} onChange={(e) => handleSingularLabelChange(e.target.value)} placeholder="Post" disabled={isFromCode} /> <Input label={t`Label (Plural)`} value={label} onChange={(e) => handleLabelChange(e.target.value)} placeholder="Posts" disabled={isFromCode} /> {isNew && ( <div> <Input label={t`Slug`} value={slug} onChange={(e) => setSlug(e.target.value)} placeholder="posts" disabled={!isNew} /> <p className="text-xs text-kumo-subtle mt-2">{t`Used in URLs and API endpoints`}</p> </div> )} <InputArea label={t`Description`} value={description} onChange={(e) => setDescription(e.target.value)} placeholder={t`A brief description of this content type`} rows={3} disabled={isFromCode} /> <div> <Input label={t`URL Pattern`} value={urlPattern} onChange={(e) => setUrlPattern(e.target.value)} placeholder={`/${slug === "pages" ? "" : `${slug}/`}{slug}`} disabled={isFromCode} /> {urlPattern && !urlPattern.includes("{slug}") && ( <p className="text-xs text-kumo-danger mt-2"> {t`Pattern must include a ${"{slug}"} placeholder`} </p> )} <p className="text-xs text-kumo-subtle mt-1"> {t`Pattern for generating URLs, e.g. /blog/${"{slug}"}`} </p> </div> <div className="space-y-3"> <Label>Features</Label> {SUPPORT_OPTIONS.map((option) => ( <label key={option.value} className={cn( "flex items-start space-x-3 p-2 rounded-md cursor-pointer hover:bg-kumo-tint/50", isFromCode && "opacity-60 cursor-not-allowed", )} > <input type="checkbox" checked={supports.includes(option.value)} onChange={() => handleSupportToggle(option.value)} className="mt-1 rounded border-kumo-line" disabled={isFromCode} /> <div> <span className="text-sm font-medium">{t(option.label)}</span> <p className="text-xs text-kumo-subtle">{t(option.description)}</p> </div> </label> ))} </div> {/* SEO toggle */} <div className="pt-2 border-t"> <label className={cn( "flex items-start space-x-3 p-2 rounded-md cursor-pointer hover:bg-kumo-tint/50", isFromCode && "opacity-60 cursor-not-allowed", )} > <input type="checkbox" checked={hasSeo} onChange={() => setHasSeo(!hasSeo)} className="mt-1 rounded border-kumo-line" disabled={isFromCode} /> <div> <span className="text-sm font-medium">{t`SEO`}</span> <p className="text-xs text-kumo-subtle"> {t`Add SEO metadata fields (title, description, image) and include in sitemap`} </p> </div> </label> </div> </div> {/* Comments settings — only for existing collections */} {!isNew && ( <div className="rounded-lg border p-4 space-y-4"> <h2 className="font-semibold">{t`Comments`}</h2> <label className={cn( "flex items-start space-x-3 p-2 rounded-md cursor-pointer hover:bg-kumo-tint/50", isFromCode && "opacity-60 cursor-not-allowed", )} > <input type="checkbox" checked={commentsEnabled} onChange={() => setCommentsEnabled(!commentsEnabled)} className="mt-1 rounded border-kumo-line" disabled={isFromCode} /> <div> <span className="text-sm font-medium">{t`Enable comments`}</span> <p className="text-xs text-kumo-subtle"> {t`Allow visitors to leave comments on this collection's content`} </p> </div> </label> {commentsEnabled && ( <> <Select label={t`Moderation`} value={commentsModeration} onValueChange={(v) => setCommentsModeration((v as "all" | "first_time" | "none") ?? "first_time") } items={{ all: t(MODERATION_OPTIONS.all), first_time: t(MODERATION_OPTIONS.first_time), none: t(MODERATION_OPTIONS.none), }} disabled={isFromCode} /> <Input label={t`Close comments after (days)`} type="number" min={0} value={String(commentsClosedAfterDays)} onChange={(e) => { const parsed = Number.parseInt(e.target.value, 10); setCommentsClosedAfterDays(Number.isNaN(parsed) ? 0 : Math.max(0, parsed)); }} disabled={isFromCode} /> <p className="text-xs text-kumo-subtle -mt-2"> {t`Set to 0 to never close comments automatically.`} </p> <label className={cn( "flex items-start space-x-3 p-2 rounded-md cursor-pointer hover:bg-kumo-tint/50", isFromCode && "opacity-60 cursor-not-allowed", )} > <input type="checkbox" checked={commentsAutoApproveUsers} onChange={() => setCommentsAutoApproveUsers(!commentsAutoApproveUsers)} className="mt-1 rounded border-kumo-line" disabled={isFromCode} /> <div> <span className="text-sm font-medium"> {t`Auto-approve authenticated users`} </span> <p className="text-xs text-kumo-subtle"> {t`Comments from logged-in CMS users are approved automatically`} </p> </div> </label> </> )} </div> )} {!isFromCode && ( <Button type="submit" disabled={!hasChanges || !urlPatternValid || isSaving} className="w-full" > {isSaving ? t`Saving...` : isNew ? t`Create Content Type` : t`Save Changes`} </Button> )} </form> </div> {/* Fields section - only show for existing collections */} {!isNew && ( <div className="lg:col-span-2"> <div className="rounded-lg border"> <div className="flex items-center justify-between p-4 border-b"> <div> <h2 className="font-semibold">{t`Fields`}</h2> <p className="text-sm text-kumo-subtle"> <Trans> {SYSTEM_FIELDS.length} system + {fields.length} custom{" "} {plural(fields.length, { one: "field", other: "fields" })} </Trans> </p> </div> {!isFromCode && ( <Button icon={<Plus />} onClick={handleAddField}> {t`Add Field`} </Button> )} </div> {/* System fields - always shown */} <div className="border-b bg-kumo-tint/30"> <div className="px-4 py-2 text-xs font-medium text-kumo-subtle uppercase tracking-wider"> {t`System Fields`} </div> <div className="divide-y divide-kumo-line/50"> {SYSTEM_FIELDS.map((field) => ( <SystemFieldRow key={field.slug} field={field} /> ))} </div> </div> {/* Custom fields */} {fields.length === 0 ? ( <div className="p-8 text-center text-kumo-subtle"> <Database className="mx-auto h-12 w-12 mb-4 opacity-50" /> <p className="font-medium">{t`No custom fields yet`}</p> <p className="text-sm">{t`Add fields to define the structure of your content`}</p> {!isFromCode && ( <Button className="mt-4" icon={<Plus />} onClick={handleAddField}> {t`Add First Field`} </Button> )} </div> ) : ( <> <div className="px-4 py-2 text-xs font-medium text-kumo-subtle uppercase tracking-wider border-b"> {t`Custom Fields`} </div> <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd} > <SortableContext items={fields.map((f) => f.id)} strategy={verticalListSortingStrategy} > <div className="divide-y"> {fields.map((field) => ( <FieldRow key={field.id} field={field} isFromCode={isFromCode} onEdit={() => handleEditField(field)} onDelete={() => setDeleteFieldTarget(field)} /> ))} </div> </SortableContext> </DndContext> </> )} </div> </div> )} </div> {/* Field editor dialog */} <FieldEditor open={fieldEditorOpen} onOpenChange={setFieldEditorOpen} field={editingField} onSave={handleFieldSave} isSaving={fieldSaving} /> <ConfirmDialog open={!!deleteFieldTarget} onClose={() => setDeleteFieldTarget(null)} title={t`Delete Field?`} description={ deleteFieldTarget ? t`Are you sure you want to delete the "${deleteFieldTarget.label}" field?` : "" } confirmLabel={t`Delete`} pendingLabel={t`Deleting...`} isPending={false} error={null} onConfirm={() => { if (deleteFieldTarget) { onDeleteField?.(deleteFieldTarget.slug); setDeleteFieldTarget(null); } }} /> </div> ); } interface FieldRowProps { field: SchemaField; isFromCode?: boolean; onEdit: () => void; onDelete: () => void; } function FieldRow({ field, isFromCode, onEdit, onDelete }: FieldRowProps) { const { t } = useLingui(); const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id: field.id, disabled: isFromCode, }); const style = { transform: CSS.Transform.toString(transform), transition }; return ( <div ref={setNodeRef} style={style} className={cn( "flex items-center px-4 py-3 hover:bg-kumo-tint/25", isDragging && "opacity-50", )} > {!isFromCode && ( <button {...attributes} {...listeners} className="cursor-grab active:cursor-grabbing me-3" aria-label={t`Drag to reorder ${field.label}`} > <DotsSixVertical className="h-5 w-5 text-kumo-subtle" /> </button> )} <div className="flex-1 min-w-0"> <div className="flex items-center space-x-2"> <span className="font-medium">{field.label}</span> <code className="text-xs bg-kumo-tint px-1.5 py-0.5 rounded text-kumo-subtle"> {field.slug} </code> </div> <div className="flex items-center space-x-2 mt-1"> <span className="text-xs text-kumo-subtle capitalize">{field.type}</span> {field.required && <Badge variant="secondary">{t`Required`}</Badge>} {field.unique && <Badge variant="secondary">{t`Unique`}</Badge>} {field.searchable && <Badge variant="secondary">{t`Searchable`}</Badge>} </div> </div> {!isFromCode && ( <div className="flex items-center space-x-1"> <Button variant="ghost" shape="square" onClick={onEdit} aria-label={t`Edit ${field.label} field`} > <Pencil className="h-4 w-4" /> </Button> <Button variant="ghost" shape="square" onClick={onDelete} aria-label={t`Delete ${field.label} field`} > <Trash className="h-4 w-4 text-kumo-danger" /> </Button> </div> )} </div> ); } interface SystemFieldInfo { slug: string; label: MessageDescriptor; type: string; description: MessageDescriptor; } function SystemFieldRow({ field }: { field: SystemFieldInfo }) { const { t } = useLingui(); return ( <div className="flex items-center px-4 py-2 opacity-75"> <div className="w-8" /> {/* Spacer for alignment with draggable fields */} <div className="flex-1 min-w-0"> <div className="flex items-center space-x-2"> <span className="font-medium text-sm">{t(field.label)}</span> <code className="text-xs bg-kumo-tint px-1.5 py-0.5 rounded text-kumo-subtle"> {field.slug} </code> <Badge variant="secondary">{t`System`}</Badge> </div> <p className="text-xs text-kumo-subtle mt-0.5">{t(field.description)}</p> </div> </div> ); } 
-#: packages/admin/src/components/ContentTypeEditor.tsx:595
+#. placeholder {2}: import { Badge, Button, Checkbox, Input, InputArea, Label, Select, Switch } from "@cloudflare/kumo"; import { DndContext, closestCenter, type DragEndEvent, KeyboardSensor, PointerSensor, useSensor, useSensors, } from "@dnd-kit/core"; import { arrayMove, SortableContext, sortableKeyboardCoordinates, useSortable, verticalListSortingStrategy, } from "@dnd-kit/sortable"; import { CSS } from "@dnd-kit/utilities"; import type { MessageDescriptor } from "@lingui/core"; import { msg, plural } from "@lingui/core/macro"; import { Trans, useLingui } from "@lingui/react/macro"; import { Plus, DotsSixVertical, Pencil, Trash, Database, FileText } from "@phosphor-icons/react"; import { useNavigate } from "@tanstack/react-router"; import * as React from "react"; import type { SchemaCollectionWithFields, SchemaField, CreateFieldInput, CreateCollectionInput, UpdateCollectionInput, } from "../lib/api"; import { cn } from "../lib/utils"; import { ArrowPrev } from "./ArrowIcons.js"; import { ConfirmDialog } from "./ConfirmDialog"; import { EditorHeader } from "./EditorHeader"; import { FieldEditor } from "./FieldEditor"; import { RouterLinkButton } from "./RouterLinkButton.js"; import { SaveButton } from "./SaveButton"; // Regex patterns for slug generation const SLUG_INVALID_CHARS_PATTERN = /[^a-z0-9]+/g; const SLUG_LEADING_TRAILING_PATTERN = /^_|_$/g; export interface ContentTypeEditorProps { collection?: SchemaCollectionWithFields; isNew?: boolean; isSaving?: boolean; onSave: (input: CreateCollectionInput | UpdateCollectionInput) => void; onAddField?: (input: CreateFieldInput) => void; onUpdateField?: (fieldSlug: string, input: CreateFieldInput) => void; onDeleteField?: (fieldSlug: string) => void; onReorderFields?: (fieldSlugs: string[]) => void; } interface SupportOptionDef { value: string; label: MessageDescriptor; description: MessageDescriptor; } const MODERATION_OPTIONS: Record<"all" | "first_time" | "none", MessageDescriptor> = { all: msg`All comments require approval`, first_time: msg`First-time commenters only`, none: msg`No moderation (auto-approve all)`, }; const SUPPORT_OPTIONS: SupportOptionDef[] = [ { value: "drafts", label: msg`Drafts`, description: msg`Save content as draft before publishing`, }, { value: "revisions", label: msg`Revisions`, description: msg`Track content history`, }, { value: "preview", label: msg`Preview`, description: msg`Preview content before publishing`, }, { value: "search", label: msg`Search`, description: msg`Enable full-text search on this collection`, }, ]; /** * System fields that exist on every collection * These are created automatically and cannot be modified */ interface SystemFieldDef { slug: string; label: MessageDescriptor; type: string; description: MessageDescriptor; } const SYSTEM_FIELDS: SystemFieldDef[] = [ { slug: "id", label: msg`ID`, type: "text", description: msg`Unique identifier (ULID)`, }, { slug: "slug", label: msg`Slug`, type: "text", description: msg`URL-friendly identifier`, }, { slug: "status", label: msg`Status`, type: "text", description: msg`draft, published, or archived`, }, { slug: "created_at", label: msg`Created At`, type: "datetime", description: msg`When the entry was created`, }, { slug: "updated_at", label: msg`Updated At`, type: "datetime", description: msg`When the entry was last modified`, }, { slug: "published_at", label: msg`Published At`, type: "datetime", description: msg`When the entry was published`, }, ]; /** * Content Type editor for creating/editing collections */ export function ContentTypeEditor({ collection, isNew, isSaving, onSave, onAddField, onUpdateField, onDeleteField, onReorderFields, }: ContentTypeEditorProps) { const { t } = useLingui(); const _navigate = useNavigate(); // Form state const [slug, setSlug] = React.useState(collection?.slug ?? ""); const [label, setLabel] = React.useState(collection?.label ?? ""); const [labelSingular, setLabelSingular] = React.useState(collection?.labelSingular ?? ""); const [description, setDescription] = React.useState(collection?.description ?? ""); const [urlPattern, setUrlPattern] = React.useState(collection?.urlPattern ?? ""); // SEO is managed via the separate `hasSeo` field; strip any legacy "seo" entry // so it isn't sent back on save (the API enum rejects it). const [supports, setSupports] = React.useState<string[]>( (collection?.supports ?? ["drafts", "revisions"]).filter((s) => s !== "seo"), ); // SEO state const [hasSeo, setHasSeo] = React.useState(collection?.hasSeo ?? false); // Comment settings state const [commentsEnabled, setCommentsEnabled] = React.useState( collection?.commentsEnabled ?? false, ); const [commentsModeration, setCommentsModeration] = React.useState<"all" | "first_time" | "none">( collection?.commentsModeration ?? "first_time", ); const [commentsClosedAfterDays, setCommentsClosedAfterDays] = React.useState( collection?.commentsClosedAfterDays ?? 90, ); const [commentsAutoApproveUsers, setCommentsAutoApproveUsers] = React.useState( collection?.commentsAutoApproveUsers ?? true, ); // Field editor state const [fieldEditorOpen, setFieldEditorOpen] = React.useState(false); const [editingField, setEditingField] = React.useState<SchemaField | undefined>(); const [fieldSaving, setFieldSaving] = React.useState(false); const [deleteFieldTarget, setDeleteFieldTarget] = React.useState<SchemaField | null>(null); const urlPatternValid = !urlPattern || urlPattern.includes("{slug}"); // Track whether form has unsaved changes const hasChanges = React.useMemo(() => { if (isNew) return slug && label; if (!collection) return false; return ( label !== collection.label || labelSingular !== (collection.labelSingular ?? "") || description !== (collection.description ?? "") || urlPattern !== (collection.urlPattern ?? "") || JSON.stringify([...supports].toSorted()) !== JSON.stringify(collection.supports.filter((s) => s !== "seo").toSorted()) || hasSeo !== collection.hasSeo || commentsEnabled !== collection.commentsEnabled || commentsModeration !== collection.commentsModeration || commentsClosedAfterDays !== collection.commentsClosedAfterDays || commentsAutoApproveUsers !== collection.commentsAutoApproveUsers ); }, [ isNew, collection, slug, label, labelSingular, description, urlPattern, supports, hasSeo, commentsEnabled, commentsModeration, commentsClosedAfterDays, commentsAutoApproveUsers, ]); // Auto-generate slug from plural label const handleLabelChange = (value: string) => { setLabel(value); if (isNew) { setSlug( value .toLowerCase() .replace(SLUG_INVALID_CHARS_PATTERN, "_") .replace(SLUG_LEADING_TRAILING_PATTERN, ""), ); } }; // Auto-generate plural label (and slug) from singular label const handleSingularLabelChange = (value: string) => { setLabelSingular(value); if (isNew) { const plural = value ? `${value}s` : ""; handleLabelChange(plural); } }; const handleSupportToggle = (value: string) => { setSupports((prev) => prev.includes(value) ? prev.filter((s) => s !== value) : [...prev, value], ); }; const handleSubmit = (e: React.FormEvent) => { e.preventDefault(); if (isNew) { onSave({ slug, label, labelSingular: labelSingular || undefined, description: description || undefined, urlPattern: urlPattern || undefined, supports, hasSeo, }); } else { onSave({ label, labelSingular: labelSingular || undefined, description: description || undefined, urlPattern: urlPattern || undefined, supports, hasSeo, commentsEnabled, commentsModeration, commentsClosedAfterDays, commentsAutoApproveUsers, }); } }; const handleFieldSave = async (input: CreateFieldInput) => { setFieldSaving(true); try { if (editingField) { onUpdateField?.(editingField.slug, input); } else { onAddField?.(input); } setFieldEditorOpen(false); setEditingField(undefined); } finally { setFieldSaving(false); } }; const handleEditField = (field: SchemaField) => { setEditingField(field); setFieldEditorOpen(true); }; const handleAddField = () => { setEditingField(undefined); setFieldEditorOpen(true); }; const isFromCode = collection?.source === "code"; const fields = collection?.fields ?? []; const sensors = useSensors( useSensor(PointerSensor, { activationConstraint: { distance: 8 } }), useSensor(KeyboardSensor, { coordinateGetter: sortableKeyboardCoordinates }), ); const handleDragEnd = (event: DragEndEvent) => { const { active, over } = event; if (!over || active.id === over.id) return; const oldIndex = fields.findIndex((f) => f.id === active.id); const newIndex = fields.findIndex((f) => f.id === over.id); if (oldIndex === -1 || newIndex === -1) return; const reordered = arrayMove(fields, oldIndex, newIndex); onReorderFields?.(reordered.map((f) => f.slug)); }; return ( <div className="space-y-6"> {/* Sticky header keeps the primary save action in view while users scroll through the settings + fields panels. The bottom-of-form save button is preserved below for keyboard / screen-reader users so DOM order still ends with a submit control. */} <EditorHeader leading={ <RouterLinkButton to="/content-types" aria-label={t`Back to Content Types`} variant="ghost" shape="square" icon={<ArrowPrev />} /> } actions={ !isFromCode && !isNew ? ( <SaveButton type="submit" form="content-type-editor-form" isDirty={!!hasChanges} isSaving={!!isSaving} disabled={!urlPatternValid} /> ) : null } > <h1 className="text-2xl font-bold truncate"> {isNew ? t`New Content Type` : collection?.label} </h1> {!isNew && ( <p className="text-kumo-subtle text-sm"> <code className="bg-kumo-tint px-1.5 py-0.5 rounded">{collection?.slug}</code> {isFromCode && ( <span className="ms-2 text-purple-600 dark:text-purple-400">{t`Defined in code`}</span> )} </p> )} </EditorHeader> {isFromCode && ( <div className="rounded-lg border border-purple-200 dark:border-purple-800 bg-purple-50 dark:bg-purple-950 p-4"> <div className="flex items-center space-x-2"> <FileText className="h-5 w-5 text-purple-600 dark:text-purple-400" /> <p className="text-sm text-purple-700 dark:text-purple-300"> {t`This collection is defined in code. Some settings cannot be changed here. Edit your live.config.ts file to modify the schema.`} </p> </div> </div> )} <div className="grid grid-cols-1 lg:grid-cols-3 gap-6"> {/* Settings form */} <div className="lg:col-span-1"> <form id="content-type-editor-form" onSubmit={handleSubmit} className="space-y-4"> <div className="rounded-lg border p-4 space-y-4"> <h2 className="font-semibold">{t`Settings`}</h2> <Input label={t`Label (Singular)`} value={labelSingular} onChange={(e) => handleSingularLabelChange(e.target.value)} placeholder="Post" disabled={isFromCode} /> <Input label={t`Label (Plural)`} value={label} onChange={(e) => handleLabelChange(e.target.value)} placeholder="Posts" disabled={isFromCode} /> {isNew && ( <div> <Input label={t`Slug`} value={slug} onChange={(e) => setSlug(e.target.value)} placeholder="posts" disabled={!isNew} /> <p className="text-xs text-kumo-subtle mt-2">{t`Used in URLs and API endpoints`}</p> </div> )} <InputArea label={t`Description`} value={description} onChange={(e) => setDescription(e.target.value)} placeholder={t`A brief description of this content type`} rows={3} disabled={isFromCode} /> <div> <Input label={t`URL Pattern`} value={urlPattern} onChange={(e) => setUrlPattern(e.target.value)} placeholder={`/${slug === "pages" ? "" : `${slug}/`}{slug}`} disabled={isFromCode} /> {urlPattern && !urlPattern.includes("{slug}") && ( <p className="text-xs text-kumo-danger mt-2"> {t`Pattern must include a ${"{slug}"} placeholder`} </p> )} <p className="text-xs text-kumo-subtle mt-1"> {t`Pattern for generating URLs, e.g. /blog/${"{slug}"}`} </p> </div> <div className="space-y-3"> <Label>Features</Label> {SUPPORT_OPTIONS.map((option) => ( <div key={option.value} className={cn( "p-2 rounded-md hover:bg-kumo-tint/50", isFromCode && "opacity-60", )} > <Checkbox checked={supports.includes(option.value)} onCheckedChange={() => handleSupportToggle(option.value)} disabled={isFromCode} label={ <div> <span className="text-sm font-medium">{t(option.label)}</span> <p className="text-xs text-kumo-subtle">{t(option.description)}</p> </div> } /> </div> ))} </div> {/* SEO toggle */} <div className="pt-2 border-t"> <Switch checked={hasSeo} onCheckedChange={(checked) => setHasSeo(checked)} disabled={isFromCode} label={ <div> <span className="text-sm font-medium">{t`SEO`}</span> <p className="text-xs text-kumo-subtle"> {t`Add SEO metadata fields (title, description, image) and include in sitemap`} </p> </div> } /> </div> </div> {/* Comments settings — only for existing collections */} {!isNew && ( <div className="rounded-lg border p-4 space-y-4"> <h2 className="font-semibold">{t`Comments`}</h2> <Switch checked={commentsEnabled} onCheckedChange={(checked) => setCommentsEnabled(checked)} disabled={isFromCode} label={ <div> <span className="text-sm font-medium">{t`Enable comments`}</span> <p className="text-xs text-kumo-subtle"> {t`Allow visitors to leave comments on this collection's content`} </p> </div> } /> {commentsEnabled && ( <> <Select label={t`Moderation`} value={commentsModeration} onValueChange={(v) => setCommentsModeration((v as "all" | "first_time" | "none") ?? "first_time") } items={{ all: t(MODERATION_OPTIONS.all), first_time: t(MODERATION_OPTIONS.first_time), none: t(MODERATION_OPTIONS.none), }} disabled={isFromCode} /> <Input label={t`Close comments after (days)`} type="number" min={0} value={String(commentsClosedAfterDays)} onChange={(e) => { const parsed = Number.parseInt(e.target.value, 10); setCommentsClosedAfterDays(Number.isNaN(parsed) ? 0 : Math.max(0, parsed)); }} disabled={isFromCode} /> <p className="text-xs text-kumo-subtle -mt-2"> {t`Set to 0 to never close comments automatically.`} </p> <Switch checked={commentsAutoApproveUsers} onCheckedChange={(checked) => setCommentsAutoApproveUsers(checked)} disabled={isFromCode} label={ <div> <span className="text-sm font-medium"> {t`Auto-approve authenticated users`} </span> <p className="text-xs text-kumo-subtle"> {t`Comments from logged-in CMS users are approved automatically`} </p> </div> } /> </> )} </div> )} {!isFromCode && ( <Button type="submit" disabled={!hasChanges || !urlPatternValid || isSaving} className="w-full" > {isSaving ? t`Saving...` : isNew ? t`Create Content Type` : t`Save Changes`} </Button> )} </form> </div> {/* Fields section - only show for existing collections */} {!isNew && ( <div className="lg:col-span-2"> <div className="rounded-lg border"> <div className="flex items-center justify-between p-4 border-b"> <div> <h2 className="font-semibold">{t`Fields`}</h2> <p className="text-sm text-kumo-subtle"> <Trans> {SYSTEM_FIELDS.length} system + {fields.length} custom{" "} {plural(fields.length, { one: "field", other: "fields" })} </Trans> </p> </div> {!isFromCode && ( <Button icon={<Plus />} onClick={handleAddField}> {t`Add Field`} </Button> )} </div> {/* System fields - always shown */} <div className="border-b bg-kumo-tint/30"> <div className="px-4 py-2 text-xs font-medium text-kumo-subtle uppercase tracking-wider"> {t`System Fields`} </div> <div className="divide-y divide-kumo-line/50"> {SYSTEM_FIELDS.map((field) => ( <SystemFieldRow key={field.slug} field={field} /> ))} </div> </div> {/* Custom fields */} {fields.length === 0 ? ( <div className="p-8 text-center text-kumo-subtle"> <Database className="mx-auto h-12 w-12 mb-4 opacity-50" /> <p className="font-medium">{t`No custom fields yet`}</p> <p className="text-sm">{t`Add fields to define the structure of your content`}</p> {!isFromCode && ( <Button className="mt-4" icon={<Plus />} onClick={handleAddField}> {t`Add First Field`} </Button> )} </div> ) : ( <> <div className="px-4 py-2 text-xs font-medium text-kumo-subtle uppercase tracking-wider border-b"> {t`Custom Fields`} </div> <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd} > <SortableContext items={fields.map((f) => f.id)} strategy={verticalListSortingStrategy} > <div className="divide-y"> {fields.map((field) => ( <FieldRow key={field.id} field={field} isFromCode={isFromCode} onEdit={() => handleEditField(field)} onDelete={() => setDeleteFieldTarget(field)} /> ))} </div> </SortableContext> </DndContext> </> )} </div> </div> )} </div> {/* Field editor dialog */} <FieldEditor open={fieldEditorOpen} onOpenChange={setFieldEditorOpen} field={editingField} onSave={handleFieldSave} isSaving={fieldSaving} /> <ConfirmDialog open={!!deleteFieldTarget} onClose={() => setDeleteFieldTarget(null)} title={t`Delete Field?`} description={ deleteFieldTarget ? t`Are you sure you want to delete the "${deleteFieldTarget.label}" field?` : "" } confirmLabel={t`Delete`} pendingLabel={t`Deleting...`} isPending={false} error={null} onConfirm={() => { if (deleteFieldTarget) { onDeleteField?.(deleteFieldTarget.slug); setDeleteFieldTarget(null); } }} /> </div> ); } interface FieldRowProps { field: SchemaField; isFromCode?: boolean; onEdit: () => void; onDelete: () => void; } function FieldRow({ field, isFromCode, onEdit, onDelete }: FieldRowProps) { const { t } = useLingui(); const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id: field.id, disabled: isFromCode, }); const style = { transform: CSS.Transform.toString(transform), transition }; return ( <div ref={setNodeRef} style={style} className={cn( "flex items-center px-4 py-3 hover:bg-kumo-tint/25", isDragging && "opacity-50", )} > {!isFromCode && ( <button {...attributes} {...listeners} className="cursor-grab active:cursor-grabbing me-3" aria-label={t`Drag to reorder ${field.label}`} > <DotsSixVertical className="h-5 w-5 text-kumo-subtle" /> </button> )} <div className="flex-1 min-w-0"> <div className="flex items-center space-x-2"> <span className="font-medium">{field.label}</span> <code className="text-xs bg-kumo-tint px-1.5 py-0.5 rounded text-kumo-subtle"> {field.slug} </code> </div> <div className="flex items-center space-x-2 mt-1"> <span className="text-xs text-kumo-subtle capitalize">{field.type}</span> {field.required && <Badge variant="secondary">{t`Required`}</Badge>} {field.unique && <Badge variant="secondary">{t`Unique`}</Badge>} {field.searchable && <Badge variant="secondary">{t`Searchable`}</Badge>} </div> </div> {!isFromCode && ( <div className="flex items-center space-x-1"> <Button variant="ghost" shape="square" onClick={onEdit} aria-label={t`Edit ${field.label} field`} > <Pencil className="h-4 w-4" /> </Button> <Button variant="ghost" shape="square" onClick={onDelete} aria-label={t`Delete ${field.label} field`} > <Trash className="h-4 w-4 text-kumo-danger" /> </Button> </div> )} </div> ); } interface SystemFieldInfo { slug: string; label: MessageDescriptor; type: string; description: MessageDescriptor; } function SystemFieldRow({ field }: { field: SystemFieldInfo }) { const { t } = useLingui(); return ( <div className="flex items-center px-4 py-2 opacity-75"> <div className="w-8" /> {/* Spacer for alignment with draggable fields */} <div className="flex-1 min-w-0"> <div className="flex items-center space-x-2"> <span className="font-medium text-sm">{t(field.label)}</span> <code className="text-xs bg-kumo-tint px-1.5 py-0.5 rounded text-kumo-subtle"> {field.slug} </code> <Badge variant="secondary">{t`System`}</Badge> </div> <p className="text-xs text-kumo-subtle mt-0.5">{t(field.description)}</p> </div> </div> ); } 
+#: packages/admin/src/components/ContentTypeEditor.tsx:574
 msgid "{0} system + {1} custom {2}"
 msgstr ""
 
 #. placeholder {0}: taxonomy.label
-#: packages/admin/src/components/TaxonomySidebar.tsx:318
+#: packages/admin/src/components/TaxonomySidebar.tsx:316
 msgid "{0} updated"
 msgstr "{0} به‌روزرسانی شد"
 
@@ -264,15 +264,15 @@ msgstr ""
 msgid "{changedCount, plural, one {# change from next revision} other {# changes from next revision}}"
 msgstr "{changedCount, plural, one {# تغییر نسبت به بازبینی بعدی} other {# تغییر نسبت به بازبینی بعدی}}"
 
-#: packages/admin/src/components/WordPressImport.tsx:1935
+#: packages/admin/src/components/WordPressImport.tsx:1908
 msgid "{count, plural, one {# file} other {# files}}"
 msgstr "{count, plural, one {# فایل} other {# فایل}}"
 
-#: packages/admin/src/components/WordPressImport.tsx:2184
+#: packages/admin/src/components/WordPressImport.tsx:2157
 msgid "{count, plural, one {# item} other {# items}}"
 msgstr "{count, plural, one {# مورد} other {# مورد}}"
 
-#: packages/admin/src/components/WordPressImport.tsx:2006
+#: packages/admin/src/components/WordPressImport.tsx:1979
 msgid "{current} of {total}"
 msgstr "{current} از {total}"
 
@@ -284,19 +284,19 @@ msgstr "{label} — بدون ترجمه"
 msgid "{label} — view translation"
 msgstr "{label} — مشاهده ترجمه"
 
-#: packages/admin/src/components/WordPressImport.tsx:2306
+#: packages/admin/src/components/WordPressImport.tsx:2279
 msgid "{matchedCount} of {totalCount} assigned"
 msgstr "{matchedCount} از {totalCount} تخصیص داده شده"
 
-#: packages/admin/src/components/WordPressImport.tsx:2294
+#: packages/admin/src/components/WordPressImport.tsx:2267
 msgid "{matchedCount} of {totalCount} authors matched by email"
 msgstr "{matchedCount} از {totalCount} نگارنده بر اساس ایمیل تطبیق یافته"
 
-#: packages/admin/src/components/WordPressImport.tsx:1740
+#: packages/admin/src/components/WordPressImport.tsx:1715
 msgid "{needsNewCollections, plural, one {# new collection will be created} other {# new collections will be created}}"
 msgstr "{needsNewCollections, plural, one {# مجموعه جدید ساخته خواهد شد} other {# مجموعه جدید ساخته خواهد شد}}"
 
-#: packages/admin/src/components/WordPressImport.tsx:1749
+#: packages/admin/src/components/WordPressImport.tsx:1724
 msgid "{needsNewFields, plural, one {Fields will be added to # existing collection} other {Fields will be added to # existing collections}}"
 msgstr "{needsNewFields, plural, one {فیلدها به # مجموعه موجود افزوده خواهد شد} other {فیلدها به # مجموعه موجود افزوده خواهد شد}}"
 
@@ -351,22 +351,22 @@ msgstr ""
 msgid "/old-page or /blog/[slug]"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1956
+#: packages/admin/src/components/WordPressImport.tsx:1929
 msgid "• Files are downloaded from your WordPress site"
 msgstr "• فایل‌ها از وبسایت وردپرس شما دریافت می‌شوند"
 
-#: packages/admin/src/components/WordPressImport.tsx:1957
+#: packages/admin/src/components/WordPressImport.tsx:1930
 msgid "• Uploaded to your EmDash media storage"
 msgstr "• در فضای رسانه EmDash شما بارگذاری می‌شوند"
 
-#: packages/admin/src/components/WordPressImport.tsx:1958
+#: packages/admin/src/components/WordPressImport.tsx:1931
 msgid "• URLs in your content are updated automatically"
 msgstr "• آدرس‌ها در محتوای شما به‌صورت خودکار به‌روزرسانی می‌شوند"
 
 #: packages/admin/src/components/SetupWizard.tsx:225
 #: packages/admin/src/components/SetupWizard.tsx:277
 #: packages/admin/src/components/SetupWizard.tsx:332
-#: packages/admin/src/components/WordPressImport.tsx:1431
+#: packages/admin/src/components/WordPressImport.tsx:1440
 msgid "← Back"
 msgstr "← بازگشت"
 
@@ -374,27 +374,27 @@ msgstr "← بازگشت"
 msgid "1 year"
 msgstr "۱ سال"
 
-#: packages/admin/src/components/WordPressImport.tsx:1352
+#: packages/admin/src/components/WordPressImport.tsx:1361
 msgid "1. Log into your WordPress admin"
 msgstr "۱. وارد مدیریت وردپرس خود شوید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1105
+#: packages/admin/src/components/WordPressImport.tsx:1114
 msgid "1. Log into your WordPress admin dashboard"
 msgstr "۱. وارد داشبورد مدیریت وردپرس خود شوید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1107
+#: packages/admin/src/components/WordPressImport.tsx:1116
 msgid "2. Go to"
 msgstr "۲. بروید به"
 
-#: packages/admin/src/components/WordPressImport.tsx:1353
+#: packages/admin/src/components/WordPressImport.tsx:1362
 msgid "2. Go to Users → Profile"
 msgstr "۲. بروید به کاربران → نمایه"
 
-#: packages/admin/src/components/WordPressImport.tsx:1354
+#: packages/admin/src/components/WordPressImport.tsx:1363
 msgid "3. Scroll to \"Application Passwords\""
 msgstr "۳. به بخش «گذرواژه‌های برنامه» بروید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1109
+#: packages/admin/src/components/WordPressImport.tsx:1118
 msgid "3. Select \"All content\""
 msgstr "۳. «همه محتوا» را انتخاب کنید"
 
@@ -418,11 +418,11 @@ msgstr "۳۰۷ موقت (سخت‌گیرانه)"
 msgid "308 Permanent (Strict)"
 msgstr "۳۰۸ دائمی (سخت‌گیرانه)"
 
-#: packages/admin/src/components/WordPressImport.tsx:1110
+#: packages/admin/src/components/WordPressImport.tsx:1119
 msgid "4. Click \"Download Export File\""
 msgstr "۴. روی «دریافت فایل برون‌ریزی» کلیک کنید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1355
+#: packages/admin/src/components/WordPressImport.tsx:1364
 msgid "4. Enter \"EmDash\" and click \"Add New\""
 msgstr "۴. «EmDash» را وارد کنید و «افزودن جدید» را بزنید"
 
@@ -430,11 +430,11 @@ msgstr "۴. «EmDash» را وارد کنید و «افزودن جدید» را 
 msgid "404 Errors"
 msgstr "خطاهای ۴۰۴"
 
-#: packages/admin/src/components/WordPressImport.tsx:1356
+#: packages/admin/src/components/WordPressImport.tsx:1365
 msgid "5. Copy the generated password"
 msgstr "۵. گذرواژه تولیدشده را کپی کنید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1111
+#: packages/admin/src/components/WordPressImport.tsx:1120
 msgid "5. Upload the file here"
 msgstr "۵. فایل را اینجا بارگذاری کنید"
 
@@ -500,7 +500,7 @@ msgstr "اطلاعات حساب کاربری"
 #: packages/admin/src/components/ContentList.tsx:349
 #: packages/admin/src/components/ContentTypeList.tsx:106
 #: packages/admin/src/components/MediaLibrary.tsx:419
-#: packages/admin/src/components/TaxonomyManager.tsx:826
+#: packages/admin/src/components/TaxonomyManager.tsx:821
 msgid "Actions"
 msgstr "اقدامات"
 
@@ -513,17 +513,17 @@ msgstr "فعال"
 #: packages/admin/src/components/ContentEditor.tsx:1944
 #: packages/admin/src/components/MenuEditor.tsx:354
 #: packages/admin/src/components/TaxonomyManager.tsx:360
-#: packages/admin/src/components/TaxonomyManager.tsx:817
-#: packages/admin/src/components/TaxonomySidebar.tsx:441
+#: packages/admin/src/components/TaxonomyManager.tsx:812
+#: packages/admin/src/components/TaxonomySidebar.tsx:439
 msgid "Add"
 msgstr "افزودن"
 
 #. placeholder {0}: field.item_label
-#: packages/admin/src/components/PortableTextEditor.tsx:1466
+#: packages/admin/src/components/PortableTextEditor.tsx:1462
 msgid "Add {0}"
 msgstr ""
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:240
+#: packages/admin/src/components/TaxonomySidebar.tsx:238
 msgid "Add {label}"
 msgstr "افزودن {label}"
 
@@ -535,15 +535,15 @@ msgstr "افزودن شاه‌کلید جدید"
 msgid "Add an allowed domain"
 msgstr "افزودن دامنه مجاز"
 
-#: packages/admin/src/components/FieldEditor.tsx:556
+#: packages/admin/src/components/FieldEditor.tsx:544
 msgid "Add at least one sub-field to define the repeater structure."
 msgstr "حداقل یک زیرفیلد برای تعریف ساختار تکرارشونده بیفزایید."
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2514
+#: packages/admin/src/components/PortableTextEditor.tsx:2510
 msgid "Add column after"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2507
+#: packages/admin/src/components/PortableTextEditor.tsx:2503
 msgid "Add column before"
 msgstr ""
 
@@ -563,21 +563,21 @@ msgstr "افزودن لینک سفارشی"
 msgid "Add Domain"
 msgstr "افزودن دامنه"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:603
+#: packages/admin/src/components/ContentTypeEditor.tsx:582
 #: packages/admin/src/components/FieldEditor.tsx:342
-#: packages/admin/src/components/FieldEditor.tsx:674
+#: packages/admin/src/components/FieldEditor.tsx:659
 msgid "Add Field"
 msgstr "افزودن فیلد"
 
-#: packages/admin/src/components/WordPressImport.tsx:1847
+#: packages/admin/src/components/WordPressImport.tsx:1820
 msgid "Add fields"
 msgstr "افزودن فیلدها"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:625
+#: packages/admin/src/components/ContentTypeEditor.tsx:604
 msgid "Add fields to define the structure of your content"
 msgstr ""
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:628
+#: packages/admin/src/components/ContentTypeEditor.tsx:607
 msgid "Add First Field"
 msgstr ""
 
@@ -585,7 +585,7 @@ msgstr ""
 msgid "Add First Item"
 msgstr "افزودن اولین مورد"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1466
+#: packages/admin/src/components/PortableTextEditor.tsx:1462
 msgid "Add item"
 msgstr ""
 
@@ -593,7 +593,7 @@ msgstr ""
 msgid "Add Item"
 msgstr "افزودن مورد"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2474
+#: packages/admin/src/components/PortableTextEditor.tsx:2470
 msgid "Add link"
 msgstr ""
 
@@ -610,7 +610,7 @@ msgid "Add New"
 msgstr "افزودن جدید"
 
 #. placeholder {0}: (taxonomy.labelSingular || taxonomy.label).toLowerCase()
-#: packages/admin/src/components/TaxonomySidebar.tsx:451
+#: packages/admin/src/components/TaxonomySidebar.tsx:449
 msgid "Add new {0}"
 msgstr "افزودن {0} جدید"
 
@@ -626,23 +626,23 @@ msgstr "افزودن شاه‌کلید"
 msgid "Add plugins to your astro.config.mjs to extend EmDash functionality."
 msgstr "افزونه‌ها را به astro.config.mjs خود بیفزایید تا قابلیت‌های EmDash را گسترش دهید."
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2537
+#: packages/admin/src/components/PortableTextEditor.tsx:2533
 msgid "Add row after"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2530
+#: packages/admin/src/components/PortableTextEditor.tsx:2526
 msgid "Add row before"
 msgstr ""
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:484
+#: packages/admin/src/components/ContentTypeEditor.tsx:476
 msgid "Add SEO metadata fields (title, description, image) and include in sitemap"
 msgstr ""
 
-#: packages/admin/src/components/FieldEditor.tsx:550
+#: packages/admin/src/components/FieldEditor.tsx:538
 msgid "Add Sub-Field"
 msgstr "افزودن زیرفیلد"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:239
+#: packages/admin/src/components/TaxonomySidebar.tsx:237
 msgid "Add tags..."
 msgstr "افزودن برچسب‌ها..."
 
@@ -659,7 +659,7 @@ msgstr "پروفایل‌های شبکه‌های اجتماعی خود را ب�
 msgid "Adding..."
 msgstr "در حال افزودن..."
 
-#: packages/admin/src/components/WordPressImport.tsx:1583
+#: packages/admin/src/components/WordPressImport.tsx:1592
 msgid "Additional data to import."
 msgstr "داده‌های اضافی برای درون‌ریزی."
 
@@ -681,15 +681,15 @@ msgstr "مدیر"
 msgid "After send:"
 msgstr "پس از ارسال:"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2862
+#: packages/admin/src/components/PortableTextEditor.tsx:2858
 msgid "Align Center"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2855
+#: packages/admin/src/components/PortableTextEditor.tsx:2851
 msgid "Align Left"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2869
+#: packages/admin/src/components/PortableTextEditor.tsx:2865
 msgid "Align Right"
 msgstr ""
 
@@ -713,7 +713,7 @@ msgstr "همه مجموعه‌ها"
 msgid "All comments require approval"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:2351
+#: packages/admin/src/components/WordPressImport.tsx:2324
 msgid "All imported content will be unassigned. You can reassign authors later from the content editor."
 msgstr "همه محتوای درون‌ریزی‌شده بدون تخصیص خواهد بود. می‌توانید بعداً از ویرایشگر محتوا نگارندگان را مجدداً تخصیص دهید."
 
@@ -742,7 +742,7 @@ msgstr "همه انواع"
 msgid "Allow users from specific domains to sign up"
 msgstr "اجازه ثبت‌نام کاربران از دامنه‌های خاص"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:512
+#: packages/admin/src/components/ContentTypeEditor.tsx:497
 msgid "Allow visitors to leave comments on this collection's content"
 msgstr ""
 
@@ -758,7 +758,7 @@ msgstr ""
 msgid "Already have an account?"
 msgstr "آیا از قبل حساب کاربری دارید؟"
 
-#: packages/admin/src/components/PluginManager.tsx:579
+#: packages/admin/src/components/PluginManager.tsx:575
 msgid "Also delete plugin storage data"
 msgstr "داده‌های ذخیره‌سازی افزونه نیز حذف شود"
 
@@ -777,14 +777,14 @@ msgstr "متن جایگزین"
 msgid "Alt text set"
 msgstr "متن جایگزین تنظیم شد"
 
-#: packages/admin/src/components/WordPressImport.tsx:1225
+#: packages/admin/src/components/WordPressImport.tsx:1234
 msgid "Alternatively, you can export from WordPress (Tools → Export) and upload the file."
 msgstr "همچنین می‌توانید از وردپرس برون‌ریزی کنید (ابزارها → برون‌ریزی) و فایل را بارگذاری کنید."
 
 #: packages/admin/src/components/MarketplaceBrowse.tsx:133
 #: packages/admin/src/components/PluginManager.tsx:91
 #: packages/admin/src/components/PluginManager.tsx:110
-#: packages/admin/src/components/TaxonomySidebar.tsx:323
+#: packages/admin/src/components/TaxonomySidebar.tsx:321
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:114
 #: packages/admin/src/router.tsx:339
 #: packages/admin/src/router.tsx:354
@@ -810,11 +810,11 @@ msgstr "خطایی رخ داد"
 msgid "An unknown error occurred"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1405
+#: packages/admin/src/components/WordPressImport.tsx:1414
 msgid "Analyzing export file..."
 msgstr "در حال تحلیل فایل برون‌ریزی..."
 
-#: packages/admin/src/components/WordPressImport.tsx:726
+#: packages/admin/src/components/WordPressImport.tsx:735
 msgid "Analyzing WordPress site..."
 msgstr "در حال تحلیل وبسایت وردپرس..."
 
@@ -831,16 +831,16 @@ msgstr "توکن‌های API"
 msgid "Appears on posts and pages"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1320
+#: packages/admin/src/components/WordPressImport.tsx:1329
 msgid "Application Password"
 msgstr "گذرواژه برنامه"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2929
+#: packages/admin/src/components/PortableTextEditor.tsx:2925
 msgid "Apply"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2414
-#: packages/admin/src/components/PortableTextEditor.tsx:2415
+#: packages/admin/src/components/PortableTextEditor.tsx:2410
+#: packages/admin/src/components/PortableTextEditor.tsx:2411
 msgid "Apply link"
 msgstr ""
 
@@ -876,7 +876,7 @@ msgid "Are you sure you want to delete \"{0}\"? This will also delete all conten
 msgstr "آیا مطمئن هستید که می‌خواهید «{0}» را حذف کنید؟ تمام محتوای این مجموعه نیز حذف خواهد شد."
 
 #. placeholder {0}: deleteFieldTarget.label
-#: packages/admin/src/components/ContentTypeEditor.tsx:681
+#: packages/admin/src/components/ContentTypeEditor.tsx:660
 msgid "Are you sure you want to delete the \"{0}\" field?"
 msgstr ""
 
@@ -888,7 +888,7 @@ msgstr "آیا مطمئن هستید که می‌خواهید این فهرست 
 msgid "As an administrator, you can invite other users from the Users section."
 msgstr "به‌عنوان مدیر، می‌توانید کاربران دیگر را از بخش کاربران دعوت کنید."
 
-#: packages/admin/src/components/WordPressImport.tsx:2289
+#: packages/admin/src/components/WordPressImport.tsx:2262
 msgid "Assign WordPress authors to EmDash users. Posts will be attributed to the selected user."
 msgstr "نگارندگان وردپرس را به کاربران EmDash تخصیص دهید. نوشته‌ها به کاربر انتخاب‌شده نسبت داده خواهند شد."
 
@@ -926,7 +926,7 @@ msgstr "احراز هویت لغو شد یا زمان آن به پایان رس�
 msgid "Author"
 msgstr "نگارنده"
 
-#: packages/admin/src/components/WordPressImport.tsx:2304
+#: packages/admin/src/components/WordPressImport.tsx:2277
 msgid "Author Mapping"
 msgstr "تطبیق نگارندگان"
 
@@ -958,7 +958,7 @@ msgstr "خودکار"
 msgid "Auto (slug change)"
 msgstr "خودکار (تغییر نامک)"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:563
+#: packages/admin/src/components/ContentTypeEditor.tsx:541
 msgid "Auto-approve authenticated users"
 msgstr ""
 
@@ -988,8 +988,8 @@ msgstr ""
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:254
 #: packages/admin/src/components/MenuEditor.tsx:275
-#: packages/admin/src/components/WordPressImport.tsx:1340
-#: packages/admin/src/components/WordPressImport.tsx:2360
+#: packages/admin/src/components/WordPressImport.tsx:1349
+#: packages/admin/src/components/WordPressImport.tsx:2333
 msgid "Back"
 msgstr "بازگشت"
 
@@ -1044,13 +1044,13 @@ msgstr ""
 msgid "Block actions - drag to reorder, click for menu"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2438
-#: packages/admin/src/components/PortableTextEditor.tsx:2744
+#: packages/admin/src/components/PortableTextEditor.tsx:2434
+#: packages/admin/src/components/PortableTextEditor.tsx:2740
 msgid "Bold"
 msgstr ""
 
 #: packages/admin/src/components/FieldEditor.tsx:174
-#: packages/admin/src/components/FieldEditor.tsx:595
+#: packages/admin/src/components/FieldEditor.tsx:583
 msgid "Boolean"
 msgstr "منطقی"
 
@@ -1062,8 +1062,8 @@ msgstr "خلاصه کوتاهی که زیر عنوان در نتایج جستج�
 msgid "Browse and install plugins to extend your site."
 msgstr "با انتخاب و نصب افزونه‌ها وبسایت خود را توسعه دهید."
 
-#: packages/admin/src/components/WordPressImport.tsx:957
-#: packages/admin/src/components/WordPressImport.tsx:1424
+#: packages/admin/src/components/WordPressImport.tsx:966
+#: packages/admin/src/components/WordPressImport.tsx:1433
 msgid "Browse Files"
 msgstr "انتخاب فایل‌ها"
 
@@ -1077,7 +1077,7 @@ msgstr "قالب‌ها را انتخاب کرده، و با محتوای خود
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:101
 #: packages/admin/src/components/PortableTextEditor.tsx:886
-#: packages/admin/src/components/PortableTextEditor.tsx:2812
+#: packages/admin/src/components/PortableTextEditor.tsx:2808
 msgid "Bullet List"
 msgstr "لیست نشانه‌دار"
 
@@ -1116,14 +1116,14 @@ msgstr "می‌تواند محتوا را مشاهده کند"
 #: packages/admin/src/components/editor/ImageNode.tsx:223
 #: packages/admin/src/components/editor/ImageNode.tsx:224
 #: packages/admin/src/components/editor/PluginBlockNode.tsx:406
-#: packages/admin/src/components/FieldEditor.tsx:663
+#: packages/admin/src/components/FieldEditor.tsx:648
 #: packages/admin/src/components/MediaDetailPanel.tsx:234
 #: packages/admin/src/components/MediaPickerModal.tsx:663
 #: packages/admin/src/components/MenuEditor.tsx:351
 #: packages/admin/src/components/MenuEditor.tsx:522
 #: packages/admin/src/components/MenuList.tsx:172
-#: packages/admin/src/components/PluginManager.tsx:585
-#: packages/admin/src/components/PortableTextEditor.tsx:2913
+#: packages/admin/src/components/PluginManager.tsx:581
+#: packages/admin/src/components/PortableTextEditor.tsx:2909
 #: packages/admin/src/components/Redirects.tsx:175
 #: packages/admin/src/components/SectionPickerModal.tsx:130
 #: packages/admin/src/components/Sections.tsx:209
@@ -1134,10 +1134,10 @@ msgstr "می‌تواند محتوا را مشاهده کند"
 #: packages/admin/src/components/settings/SecuritySettings.tsx:206
 #: packages/admin/src/components/TaxonomyManager.tsx:187
 #: packages/admin/src/components/TaxonomyManager.tsx:470
-#: packages/admin/src/components/TaxonomyManager.tsx:689
+#: packages/admin/src/components/TaxonomyManager.tsx:684
 #: packages/admin/src/components/users/InviteUserModal.tsx:200
 #: packages/admin/src/components/Widgets.tsx:386
-#: packages/admin/src/components/WordPressImport.tsx:1778
+#: packages/admin/src/components/WordPressImport.tsx:1753
 msgid "Cancel"
 msgstr "لغو"
 
@@ -1184,13 +1184,9 @@ msgid "Categories"
 msgstr "دسته‌ها"
 
 #. placeholder {0}: analysis.categories
-#: packages/admin/src/components/WordPressImport.tsx:1622
+#: packages/admin/src/components/WordPressImport.tsx:1621
 msgid "Categories ({0})"
 msgstr "دسته‌ها ({0})"
-
-#: packages/admin/src/components/WordPressImport.tsx:1619
-msgid "Categories will be imported"
-msgstr "دسته‌ها درون‌ریزی خواهند شد"
 
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:68
 #: packages/admin/src/components/ContentEditor.tsx:1630
@@ -1227,7 +1223,7 @@ msgstr "حرف جداکننده‌ی بین عنوان صفحه و نام وبس
 msgid "Check for updates"
 msgstr "بررسی به‌روزرسانی‌ها"
 
-#: packages/admin/src/components/WordPressImport.tsx:928
+#: packages/admin/src/components/WordPressImport.tsx:937
 msgid "Check Site"
 msgstr "بررسی وبسایت"
 
@@ -1237,7 +1233,7 @@ msgstr "بررسی وبسایت"
 msgid "Check your email"
 msgstr "ایمیل خود را بررسی کنید"
 
-#: packages/admin/src/components/WordPressImport.tsx:692
+#: packages/admin/src/components/WordPressImport.tsx:701
 msgid "Checking {urlInput}..."
 msgstr "در حال بررسی {urlInput}..."
 
@@ -1323,7 +1319,7 @@ msgstr "روی لینک ایمیل کلیک کنید تا وارد شوید."
 msgid "Close"
 msgstr "بستن"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:534
+#: packages/admin/src/components/ContentTypeEditor.tsx:520
 msgid "Close comments after (days)"
 msgstr ""
 
@@ -1332,14 +1328,14 @@ msgid "Close panel"
 msgstr "بستن پنل"
 
 #: packages/admin/src/components/ContentTypeList.tsx:244
-#: packages/admin/src/components/PortableTextEditor.tsx:2466
+#: packages/admin/src/components/PortableTextEditor.tsx:2462
 #: packages/admin/src/components/Redirects.tsx:443
 msgid "Code"
 msgstr "کد"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:93
 #: packages/admin/src/components/PortableTextEditor.tsx:916
-#: packages/admin/src/components/PortableTextEditor.tsx:2833
+#: packages/admin/src/components/PortableTextEditor.tsx:2829
 msgid "Code Block"
 msgstr "بلوک کد"
 
@@ -1367,7 +1363,7 @@ msgstr "مجموعه:"
 msgid "Collections"
 msgstr "مجموعه‌ها"
 
-#: packages/admin/src/components/WordPressImport.tsx:2160
+#: packages/admin/src/components/WordPressImport.tsx:2133
 msgid "Collections created:"
 msgstr "مجموعه‌های ساخته‌شده:"
 
@@ -1385,12 +1381,12 @@ msgid "Comment Detail"
 msgstr "جزئیات دیدگاه"
 
 #: packages/admin/src/components/comments/CommentInbox.tsx:146
-#: packages/admin/src/components/ContentTypeEditor.tsx:494
+#: packages/admin/src/components/ContentTypeEditor.tsx:487
 #: packages/admin/src/components/Sidebar.tsx:190
 msgid "Comments"
 msgstr "دیدگاه‌ها"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:566
+#: packages/admin/src/components/ContentTypeEditor.tsx:544
 msgid "Comments from logged-in CMS users are approved automatically"
 msgstr ""
 
@@ -1410,20 +1406,20 @@ msgstr "پیکربندی فیلد"
 msgid "Confirm"
 msgstr "تأیید"
 
-#: packages/admin/src/components/WordPressImport.tsx:618
+#: packages/admin/src/components/WordPressImport.tsx:627
 msgid "Connect"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1337
+#: packages/admin/src/components/WordPressImport.tsx:1346
 msgid "Connect & Analyze"
 msgstr "اتصال و تحلیل"
 
 #. placeholder {0}: siteTitle || "WordPress"
-#: packages/admin/src/components/WordPressImport.tsx:1287
+#: packages/admin/src/components/WordPressImport.tsx:1296
 msgid "Connect to {0}"
 msgstr "اتصال به {0}"
 
-#: packages/admin/src/components/WordPressImport.tsx:1203
+#: packages/admin/src/components/WordPressImport.tsx:1212
 msgid "Connect with WordPress"
 msgstr "اتصال به وردپرس"
 
@@ -1436,7 +1432,7 @@ msgstr "متصل شده در {0}"
 #: packages/admin/src/components/comments/CommentDetail.tsx:103
 #: packages/admin/src/components/comments/CommentInbox.tsx:293
 #: packages/admin/src/components/Dashboard.tsx:164
-#: packages/admin/src/components/PortableTextEditor.tsx:1956
+#: packages/admin/src/components/PortableTextEditor.tsx:1952
 #: packages/admin/src/components/SectionEditor.tsx:196
 #: packages/admin/src/components/Sidebar.tsx:412
 #: packages/admin/src/components/Widgets.tsx:819
@@ -1448,11 +1444,11 @@ msgid "Content Block"
 msgstr "بلوک محتوا"
 
 #. placeholder {0}: result.errors.length
-#: packages/admin/src/components/WordPressImport.tsx:2215
+#: packages/admin/src/components/WordPressImport.tsx:2188
 msgid "Content Errors ({0})"
 msgstr "خطاهای محتوا ({0})"
 
-#: packages/admin/src/components/WordPressImport.tsx:1147
+#: packages/admin/src/components/WordPressImport.tsx:1156
 msgid "Content found:"
 msgstr "محتوای یافت‌شده:"
 
@@ -1472,7 +1468,7 @@ msgstr "شناسه محتوا:"
 msgid "Content is now live"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:2204
+#: packages/admin/src/components/WordPressImport.tsx:2177
 msgid "content items"
 msgstr "موارد محتوا"
 
@@ -1492,7 +1488,7 @@ msgstr ""
 msgid "Content snapshot:"
 msgstr "عکس فوری محتوا:"
 
-#: packages/admin/src/components/WordPressImport.tsx:1561
+#: packages/admin/src/components/WordPressImport.tsx:1570
 msgid "Content to Import"
 msgstr "محتوا برای درون‌ریزی"
 
@@ -1502,7 +1498,7 @@ msgstr "محتوا برای درون‌ریزی"
 msgid "Content Types"
 msgstr "انواع محتوا"
 
-#: packages/admin/src/components/WordPressImport.tsx:2143
+#: packages/admin/src/components/WordPressImport.tsx:2116
 msgid "Content was skipped because it already exists"
 msgstr "محتوا رد شد زیرا از قبل وجود دارد"
 
@@ -1519,7 +1515,7 @@ msgstr "ادامه"
 msgid "Continue →"
 msgstr "ادامه →"
 
-#: packages/admin/src/components/WordPressImport.tsx:2362
+#: packages/admin/src/components/WordPressImport.tsx:2335
 msgid "Continue Import"
 msgstr "ادامه درون‌ریزی"
 
@@ -1567,7 +1563,7 @@ msgstr "کپی خودکار ممکن نبود. لطفاً آدرس بالا را
 msgid "Could not load image from URL"
 msgstr "بارگذاری تصویر از آدرس ممکن نبود"
 
-#: packages/admin/src/components/WordPressImport.tsx:1094
+#: packages/admin/src/components/WordPressImport.tsx:1103
 msgid "Couldn't detect WordPress"
 msgstr "وردپرس شناسایی نشد"
 
@@ -1575,7 +1571,7 @@ msgstr "وردپرس شناسایی نشد"
 msgid "Couldn't map \"{draft}\" to a MIME type. Type the MIME directly."
 msgstr ""
 
-#: packages/admin/src/components/TaxonomyManager.tsx:825
+#: packages/admin/src/components/TaxonomyManager.tsx:820
 msgid "Count"
 msgstr "تعداد"
 
@@ -1589,7 +1585,7 @@ msgstr "تعداد"
 msgid "Create"
 msgstr "ساخت جدید"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:265
+#: packages/admin/src/components/TaxonomySidebar.tsx:263
 msgid "Create \"{trimmedInput}\""
 msgstr ""
 
@@ -1620,7 +1616,7 @@ msgstr "ساخت حساب کاربری"
 msgid "Create byline"
 msgstr "ساخت نگارنده"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:581
+#: packages/admin/src/components/ContentTypeEditor.tsx:560
 msgid "Create Content Type"
 msgstr ""
 
@@ -1637,7 +1633,7 @@ msgstr "ساخت فهرستی جدید"
 msgid "Create New Token"
 msgstr "ساخت توکن جدید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1331
+#: packages/admin/src/components/WordPressImport.tsx:1340
 msgid "Create one in WordPress: Users → Profile → Application Passwords"
 msgstr "یکی در وردپرس بسازید: کاربران → نمایه → گذرواژه‌های برنامه"
 
@@ -1663,7 +1659,7 @@ msgstr "ساخت    تغییر مسیر برای این مسیر"
 msgid "Create redirect rules to manage URL changes."
 msgstr "قوانین    تغییر مسیر برای مدیریت تغییرات آدرس بسازید."
 
-#: packages/admin/src/components/WordPressImport.tsx:1782
+#: packages/admin/src/components/WordPressImport.tsx:1757
 msgid "Create Schema & Import"
 msgstr "ساخت طرح و درون‌ریزی"
 
@@ -1677,7 +1673,7 @@ msgid "Create sections in the Sections library to use them here"
 msgstr "بخش‌ها را در کتابخانه بخش‌ها بسازید تا اینجا استفاده شوند"
 
 #: packages/admin/src/components/TaxonomyManager.tsx:596
-#: packages/admin/src/components/TaxonomyManager.tsx:692
+#: packages/admin/src/components/TaxonomyManager.tsx:687
 msgid "Create Taxonomy"
 msgstr "ساخت دسته‌بندی"
 
@@ -1754,7 +1750,7 @@ msgstr "تاریخ ساخت"
 msgid "Created: {0}"
 msgstr "ساخته شده در: {0}"
 
-#: packages/admin/src/components/WordPressImport.tsx:803
+#: packages/admin/src/components/WordPressImport.tsx:812
 msgid "Creating collections and fields..."
 msgstr "در حال ساخت مجموعه‌ها و فیلدها..."
 
@@ -1763,8 +1759,8 @@ msgstr "در حال ساخت مجموعه‌ها و فیلدها..."
 #: packages/admin/src/components/Redirects.tsx:181
 #: packages/admin/src/components/Sections.tsx:212
 #: packages/admin/src/components/settings/ApiTokenSettings.tsx:450
-#: packages/admin/src/components/TaxonomyManager.tsx:692
-#: packages/admin/src/components/TaxonomySidebar.tsx:265
+#: packages/admin/src/components/TaxonomyManager.tsx:687
+#: packages/admin/src/components/TaxonomySidebar.tsx:263
 msgid "Creating..."
 msgstr "در حال ساخت..."
 
@@ -1780,7 +1776,7 @@ msgstr "فعلی"
 msgid "Custom"
 msgstr "سفارشی"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:635
+#: packages/admin/src/components/ContentTypeEditor.tsx:614
 msgid "Custom Fields"
 msgstr ""
 
@@ -1814,7 +1810,7 @@ msgid "Date"
 msgstr "تاریخ"
 
 #: packages/admin/src/components/FieldEditor.tsx:180
-#: packages/admin/src/components/FieldEditor.tsx:596
+#: packages/admin/src/components/FieldEditor.tsx:584
 msgid "Date & Time"
 msgstr "تاریخ و زمان"
 
@@ -1853,7 +1849,7 @@ msgstr ""
 
 #: packages/admin/src/components/comments/CommentInbox.tsx:267
 #: packages/admin/src/components/comments/CommentInbox.tsx:407
-#: packages/admin/src/components/ContentTypeEditor.tsx:684
+#: packages/admin/src/components/ContentTypeEditor.tsx:663
 #: packages/admin/src/components/ContentTypeList.tsx:148
 #: packages/admin/src/components/editor/BlockMenu.tsx:298
 #: packages/admin/src/components/editor/PluginBlockNode.tsx:378
@@ -1864,7 +1860,7 @@ msgstr ""
 #: packages/admin/src/components/Redirects.tsx:552
 #: packages/admin/src/components/Sections.tsx:308
 #: packages/admin/src/components/Sections.tsx:407
-#: packages/admin/src/components/TaxonomyManager.tsx:889
+#: packages/admin/src/components/TaxonomyManager.tsx:884
 #: packages/admin/src/components/Widgets.tsx:636
 #: packages/admin/src/routes/bylines.tsx:323
 #: packages/admin/src/routes/bylines.tsx:338
@@ -1888,7 +1884,7 @@ msgid "Delete {0}"
 msgstr "حذف {0}"
 
 #. placeholder {0}: field.label
-#: packages/admin/src/components/ContentTypeEditor.tsx:761
+#: packages/admin/src/components/ContentTypeEditor.tsx:740
 msgid "Delete {0} field"
 msgstr ""
 
@@ -1903,7 +1899,7 @@ msgid "Delete {0} widget area"
 msgstr ""
 
 #. placeholder {0}: taxonomyDef.labelSingular || "Term"
-#: packages/admin/src/components/TaxonomyManager.tsx:885
+#: packages/admin/src/components/TaxonomyManager.tsx:880
 msgid "Delete {0}?"
 msgstr "حذف {0}؟"
 
@@ -1911,7 +1907,7 @@ msgstr "حذف {0}؟"
 msgid "Delete Byline?"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2521
+#: packages/admin/src/components/PortableTextEditor.tsx:2517
 msgid "Delete column"
 msgstr ""
 
@@ -1927,7 +1923,7 @@ msgstr "حذف نوع محتوا؟"
 msgid "Delete embed"
 msgstr ""
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:678
+#: packages/admin/src/components/ContentTypeEditor.tsx:657
 msgid "Delete Field?"
 msgstr ""
 
@@ -1970,7 +1966,7 @@ msgstr "حذف    تغییر مسیر {0}"
 msgid "Delete Redirect?"
 msgstr "حذف    تغییر مسیر؟"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2542
+#: packages/admin/src/components/PortableTextEditor.tsx:2538
 msgid "Delete row"
 msgstr ""
 
@@ -1978,7 +1974,7 @@ msgstr ""
 msgid "Delete Section?"
 msgstr "حذف بخش؟"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2557
+#: packages/admin/src/components/PortableTextEditor.tsx:2553
 msgid "Delete table"
 msgstr ""
 
@@ -1991,14 +1987,14 @@ msgid "Deleted"
 msgstr "حذف‌شده"
 
 #: packages/admin/src/components/comments/CommentInbox.tsx:408
-#: packages/admin/src/components/ContentTypeEditor.tsx:685
+#: packages/admin/src/components/ContentTypeEditor.tsx:664
 #: packages/admin/src/components/ContentTypeList.tsx:149
 #: packages/admin/src/components/MediaDetailPanel.tsx:230
 #: packages/admin/src/components/MediaDetailPanel.tsx:256
 #: packages/admin/src/components/MenuList.tsx:256
 #: packages/admin/src/components/Redirects.tsx:553
 #: packages/admin/src/components/Sections.tsx:309
-#: packages/admin/src/components/TaxonomyManager.tsx:890
+#: packages/admin/src/components/TaxonomyManager.tsx:885
 #: packages/admin/src/components/Widgets.tsx:637
 #: packages/admin/src/routes/bylines.tsx:339
 msgid "Deleting..."
@@ -2197,7 +2193,7 @@ msgid "Don't have an account? <0>Sign up</0>"
 msgstr "حساب کاربری ندارید؟ <0>ثبت‌نام</0>"
 
 #: packages/admin/src/components/users/InviteUserModal.tsx:144
-#: packages/admin/src/components/WordPressImport.tsx:1991
+#: packages/admin/src/components/WordPressImport.tsx:1964
 msgid "Done"
 msgstr "انجام شد"
 
@@ -2205,7 +2201,7 @@ msgstr "انجام شد"
 msgid "Down"
 msgstr "پایین"
 
-#: packages/admin/src/components/WordPressImport.tsx:1989
+#: packages/admin/src/components/WordPressImport.tsx:1962
 msgid "Downloading"
 msgstr "در حال دریافت"
 
@@ -2227,7 +2223,7 @@ msgstr "پیش‌نویس، منتشرشده یا بایگانی‌شده"
 msgid "Drafts"
 msgstr "پیش‌نویس‌ها"
 
-#: packages/admin/src/components/WordPressImport.tsx:952
+#: packages/admin/src/components/WordPressImport.tsx:961
 msgid "Drag and drop or click to browse (.xml)"
 msgstr "بکشید و رها کنید یا برای مرور کلیک کنید (.xml)"
 
@@ -2235,13 +2231,13 @@ msgstr "بکشید و رها کنید یا برای مرور کلیک کنید (
 msgid "Drag here to add"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1642
+#: packages/admin/src/components/PortableTextEditor.tsx:1638
 msgid "Drag to reorder"
 msgstr ""
 
 #. placeholder {0}: field.label
 #. placeholder {0}: widget.title ?? t`widget`
-#: packages/admin/src/components/ContentTypeEditor.tsx:728
+#: packages/admin/src/components/ContentTypeEditor.tsx:707
 #: packages/admin/src/components/Widgets.tsx:722
 msgid "Drag to reorder {0}"
 msgstr ""
@@ -2262,7 +2258,7 @@ msgstr ""
 msgid "Drop to add widget"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1418
+#: packages/admin/src/components/WordPressImport.tsx:1427
 msgid "Drop your WordPress export file here"
 msgstr "فایل برون‌ریزی وردپرس خود را اینجا رها کنید"
 
@@ -2313,7 +2309,7 @@ msgid "Edit {0}"
 msgstr "ویرایش {0}"
 
 #. placeholder {0}: field.label
-#: packages/admin/src/components/ContentTypeEditor.tsx:753
+#: packages/admin/src/components/ContentTypeEditor.tsx:732
 msgid "Edit {0} field"
 msgstr ""
 
@@ -2337,7 +2333,7 @@ msgstr "ویرایش دامنه"
 msgid "Edit Field"
 msgstr "ویرایش فیلد"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2474
+#: packages/admin/src/components/PortableTextEditor.tsx:2470
 msgid "Edit link"
 msgstr ""
 
@@ -2420,19 +2416,19 @@ msgid "Email verified!"
 msgstr "ایمیل تأیید شد!"
 
 #. placeholder {0}: block.label
-#: packages/admin/src/components/PortableTextEditor.tsx:1969
+#: packages/admin/src/components/PortableTextEditor.tsx:1965
 msgid "Embed a {0}"
 msgstr "جاسازی {0}"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1972
+#: packages/admin/src/components/PortableTextEditor.tsx:1968
 msgid "Embeds"
 msgstr "جاسازی‌ها"
 
-#: packages/admin/src/components/WordPressImport.tsx:1038
+#: packages/admin/src/components/WordPressImport.tsx:1047
 msgid "EmDash Exporter"
 msgstr "برون‌ریزنده EmDash"
 
-#: packages/admin/src/components/WordPressImport.tsx:1137
+#: packages/admin/src/components/WordPressImport.tsx:1146
 msgid "EmDash Exporter plugin detected! You can import directly."
 msgstr "افزونه برون‌ریزنده EmDash شناسایی شد! می‌توانید مستقیماً درون‌ریزی کنید."
 
@@ -2440,7 +2436,7 @@ msgstr "افزونه برون‌ریزنده EmDash شناسایی شد! می‌
 msgid "Enable"
 msgstr "فعال‌سازی"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:510
+#: packages/admin/src/components/ContentTypeEditor.tsx:495
 msgid "Enable comments"
 msgstr ""
 
@@ -2475,7 +2471,7 @@ msgstr "یک آدرس (https://…) یا یک مسیر نسبی (/…) وارد 
 msgid "Enter a valid URL (e.g. https://example.com)"
 msgstr "یک آدرس وب (URL) معتبر وارد کنید (مثلاً https://example.com)"
 
-#: packages/admin/src/components/WordPressImport.tsx:1210
+#: packages/admin/src/components/WordPressImport.tsx:1219
 msgid "Enter credentials manually"
 msgstr "اطلاعات ورود را به‌صورت دستی وارد کنید"
 
@@ -2508,11 +2504,11 @@ msgstr ""
 msgid "Enter your handle to sign in."
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1289
+#: packages/admin/src/components/WordPressImport.tsx:1298
 msgid "Enter your WordPress credentials to import content directly."
 msgstr "اطلاعات ورود وردپرس خود را وارد کنید تا محتوا مستقیماً درون‌ریزی شود."
 
-#: packages/admin/src/components/WordPressImport.tsx:915
+#: packages/admin/src/components/WordPressImport.tsx:924
 msgid "Enter your WordPress site URL"
 msgstr "آدرس وبسایت (URL) وردپرس خود را وارد کنید"
 
@@ -2541,7 +2537,7 @@ msgstr "خطا در ذخیره بخش"
 msgid "Error updating widget"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1873
+#: packages/admin/src/components/WordPressImport.tsx:1846
 msgid "Exists"
 msgstr "وجود دارد"
 
@@ -2549,7 +2545,7 @@ msgstr "وجود دارد"
 msgid "Exit distraction-free mode"
 msgstr "خروج از حالت بدون حواس‌پرتی"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2975
+#: packages/admin/src/components/PortableTextEditor.tsx:2971
 msgid "Exit Spotlight Mode"
 msgstr ""
 
@@ -2570,11 +2566,11 @@ msgstr "انقضا در {0}"
 msgid "Expiry"
 msgstr "انقضا"
 
-#: packages/admin/src/components/WordPressImport.tsx:1103
+#: packages/admin/src/components/WordPressImport.tsx:1112
 msgid "Export from WordPress manually"
 msgstr "برون‌ریزی دستی از وردپرس"
 
-#: packages/admin/src/components/WordPressImport.tsx:1227
+#: packages/admin/src/components/WordPressImport.tsx:1236
 msgid "Export your content from WordPress to import everything including drafts."
 msgstr "محتوای خود را از وردپرس برون‌ریزی کنید تا همه چیز شامل پیش‌نویس‌ها درون‌ریزی شود."
 
@@ -2586,7 +2582,7 @@ msgstr "فیسبوک"
 msgid "Fail"
 msgstr "ناموفق"
 
-#: packages/admin/src/components/WordPressImport.tsx:1993
+#: packages/admin/src/components/WordPressImport.tsx:1966
 msgid "Failed"
 msgstr "ناموفق"
 
@@ -2598,7 +2594,7 @@ msgstr "بررسی امنیتی ناموفق"
 msgid "Failed to add domain"
 msgstr "افزودن دامنه ناموفق بود"
 
-#: packages/admin/src/components/WordPressImport.tsx:358
+#: packages/admin/src/components/WordPressImport.tsx:367
 msgid "Failed to analyze WordPress site"
 msgstr ""
 
@@ -2614,11 +2610,11 @@ msgstr ""
 msgid "Failed to create byline"
 msgstr "ساخت نگارنده ناموفق بود"
 
-#: packages/admin/src/components/WordPressImport.tsx:1544
+#: packages/admin/src/components/WordPressImport.tsx:1553
 msgid "Failed to create some collections"
 msgstr "ساخت برخی مجموعه‌ها ناموفق بود"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:458
+#: packages/admin/src/components/TaxonomySidebar.tsx:456
 msgid "Failed to create term"
 msgstr "ساخت اصطلاح ناموفق بود"
 
@@ -2725,7 +2721,7 @@ msgstr "فعال‌سازی افزونه ناموفق بود"
 msgid "Failed to enable user"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:286
+#: packages/admin/src/components/WordPressImport.tsx:295
 msgid "Failed to execute import"
 msgstr ""
 
@@ -2783,11 +2779,11 @@ msgstr ""
 msgid "Failed to get registration options"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:377
+#: packages/admin/src/components/WordPressImport.tsx:386
 msgid "Failed to import from WordPress"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:310
+#: packages/admin/src/components/WordPressImport.tsx:319
 #: packages/admin/src/lib/api/import.ts:256
 msgid "Failed to import media"
 msgstr ""
@@ -2859,7 +2855,7 @@ msgstr ""
 msgid "Failed to permanently delete content"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:267
+#: packages/admin/src/components/WordPressImport.tsx:276
 msgid "Failed to prepare import"
 msgstr ""
 
@@ -2905,7 +2901,7 @@ msgstr ""
 msgid "Failed to revoke API token"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:323
+#: packages/admin/src/components/WordPressImport.tsx:332
 msgid "Failed to rewrite URLs"
 msgstr ""
 
@@ -2958,7 +2954,7 @@ msgid "Failed to unschedule"
 msgstr ""
 
 #. placeholder {0}: taxonomy.label.toLowerCase()
-#: packages/admin/src/components/TaxonomySidebar.tsx:322
+#: packages/admin/src/components/TaxonomySidebar.tsx:320
 msgid "Failed to update {0}"
 msgstr "به‌روزرسانی {0} ناموفق بود"
 
@@ -2995,7 +2991,7 @@ msgstr ""
 msgid "Favicon"
 msgstr "فاوآیکون"
 
-#: packages/admin/src/components/WordPressImport.tsx:1013
+#: packages/admin/src/components/WordPressImport.tsx:1022
 msgid "Feature"
 msgstr "ویژگی"
 
@@ -3003,11 +2999,11 @@ msgstr "ویژگی"
 msgid "Features"
 msgstr "ویژگی‌ها"
 
-#: packages/admin/src/components/WordPressImport.tsx:727
+#: packages/admin/src/components/WordPressImport.tsx:736
 msgid "Fetching content from the EmDash Exporter API."
 msgstr "در حال دریافت محتوا از API برون‌ریزنده EmDash."
 
-#: packages/admin/src/components/FieldEditor.tsx:579
+#: packages/admin/src/components/FieldEditor.tsx:567
 msgid "Field label"
 msgstr "برچسب فیلد"
 
@@ -3019,11 +3015,11 @@ msgstr "برچسب فیلد"
 msgid "Field slugs cannot be changed after creation"
 msgstr "نامک‌های فیلد پس از ساخت قابل تغییر نیستند"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:593
+#: packages/admin/src/components/ContentTypeEditor.tsx:572
 msgid "Fields"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:2166
+#: packages/admin/src/components/WordPressImport.tsx:2139
 msgid "Fields created:"
 msgstr "فیلدهای ساخته‌شده:"
 
@@ -3032,7 +3028,7 @@ msgid "File"
 msgstr "فایل"
 
 #. placeholder {0}: progress.current
-#: packages/admin/src/components/WordPressImport.tsx:2021
+#: packages/admin/src/components/WordPressImport.tsx:1994
 msgid "File {0}"
 msgstr "فایل {0}"
 
@@ -3049,7 +3045,7 @@ msgstr "نام فایل"
 msgid "Filename cannot be changed after upload"
 msgstr "نام فایل پس از بارگذاری قابل تغییر نیست"
 
-#: packages/admin/src/components/WordPressImport.tsx:2199
+#: packages/admin/src/components/WordPressImport.tsx:2172
 msgid "files imported"
 msgstr "فایل‌ها درون‌ریزی شد"
 
@@ -3089,11 +3085,11 @@ msgstr ""
 msgid "Fonts"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1228
+#: packages/admin/src/components/WordPressImport.tsx:1237
 msgid "For a complete import including drafts and all content, export from WordPress."
 msgstr "برای درون‌ریزی کامل شامل پیش‌نویس‌ها و همه محتوا، از وردپرس برون‌ریزی کنید."
 
-#: packages/admin/src/components/WordPressImport.tsx:1037
+#: packages/admin/src/components/WordPressImport.tsx:1046
 msgid "For the best import experience, install the"
 msgstr "برای بهترین تجربه درون‌ریزی، نصب کنید"
 
@@ -3130,7 +3126,7 @@ msgstr "گیت‌هاب"
 msgid "Give this passkey a name to help you identify it later."
 msgstr "به این شاه‌کلید یک نام بدهید تا بعداً آن را شناسایی کنید."
 
-#: packages/admin/src/components/WordPressImport.tsx:2251
+#: packages/admin/src/components/WordPressImport.tsx:2224
 #: packages/admin/src/router.tsx:1742
 msgid "Go to Dashboard"
 msgstr "رفتن به داشبورد"
@@ -3157,19 +3153,19 @@ msgstr ""
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:61
 #: packages/admin/src/components/PortableTextEditor.tsx:856
-#: packages/admin/src/components/PortableTextEditor.tsx:2785
+#: packages/admin/src/components/PortableTextEditor.tsx:2781
 msgid "Heading 1"
 msgstr "سرفصل ۱"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:69
 #: packages/admin/src/components/PortableTextEditor.tsx:866
-#: packages/admin/src/components/PortableTextEditor.tsx:2792
+#: packages/admin/src/components/PortableTextEditor.tsx:2788
 msgid "Heading 2"
 msgstr "سرفصل ۲"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:77
 #: packages/admin/src/components/PortableTextEditor.tsx:876
-#: packages/admin/src/components/PortableTextEditor.tsx:2799
+#: packages/admin/src/components/PortableTextEditor.tsx:2795
 msgid "Heading 3"
 msgstr "سرفصل ۳"
 
@@ -3215,7 +3211,7 @@ msgstr "صفحه اصلی"
 msgid "Hooks"
 msgstr "هوک‌ها"
 
-#: packages/admin/src/components/WordPressImport.tsx:1350
+#: packages/admin/src/components/WordPressImport.tsx:1359
 msgid "How to create an Application Password"
 msgstr "چگونه گذرواژه برنامه بسازیم"
 
@@ -3241,7 +3237,7 @@ msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "اگر حساب کاربری برای <0>{email}</0> وجود داشته باشد، لینک ورود ارسال شده است."
 
 #: packages/admin/src/components/FieldEditor.tsx:204
-#: packages/admin/src/components/PortableTextEditor.tsx:1938
+#: packages/admin/src/components/PortableTextEditor.tsx:1934
 msgid "Image"
 msgstr "تصویر"
 
@@ -3267,7 +3263,7 @@ msgstr "تصویر نمایش داده شده هنگام اشتراک‌گذار
 msgid "Image URL"
 msgstr "آدرس تصویر"
 
-#: packages/admin/src/components/WordPressImport.tsx:2203
+#: packages/admin/src/components/WordPressImport.tsx:2176
 msgid "image URLs updated in"
 msgstr "آدرس‌های تصویر به‌روزرسانی شده در"
 
@@ -3277,76 +3273,60 @@ msgstr ""
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:227
 #: packages/admin/src/components/Sidebar.tsx:228
-#: packages/admin/src/components/WordPressImport.tsx:655
+#: packages/admin/src/components/WordPressImport.tsx:664
 msgid "Import"
 msgstr "درون‌ریزی"
 
 #. placeholder {0}: postType.name
-#: packages/admin/src/components/WordPressImport.tsx:1821
+#: packages/admin/src/components/WordPressImport.tsx:1794
 msgid "Import {0}"
 msgstr "درون‌ریزی {0}"
 
-#: packages/admin/src/components/WordPressImport.tsx:1196
+#: packages/admin/src/components/WordPressImport.tsx:1205
 msgid "Import all content directly including drafts, custom post types, ACF fields, and SEO data. No file download needed."
 msgstr "درون‌ریزی مستقیم همه محتوا شامل پیش‌نویس‌ها، انواع نوشته سفارشی، فیلدهای ACF و داده‌های سئو. نیازی به دریافت فایل نیست."
 
-#: packages/admin/src/components/WordPressImport.tsx:2249
+#: packages/admin/src/components/WordPressImport.tsx:2222
 msgid "Import Another File"
 msgstr "درون‌ریزی فایل دیگر"
 
-#: packages/admin/src/components/WordPressImport.tsx:1007
+#: packages/admin/src/components/WordPressImport.tsx:1016
 msgid "Import Capabilities"
 msgstr "قابلیت‌های درون‌ریزی"
 
-#: packages/admin/src/components/WordPressImport.tsx:2137
+#: packages/admin/src/components/WordPressImport.tsx:2110
 msgid "Import Complete"
 msgstr "درون‌ریزی کامل شد"
 
-#: packages/admin/src/components/WordPressImport.tsx:2138
+#: packages/admin/src/components/WordPressImport.tsx:2111
 msgid "Import Completed with Errors"
 msgstr "درون‌ریزی با خطاها کامل شد"
 
-#: packages/admin/src/components/WordPressImport.tsx:1529
+#: packages/admin/src/components/WordPressImport.tsx:1538
 msgid "Import failed"
 msgstr "درون‌ریزی ناموفق بود"
 
-#: packages/admin/src/components/WordPressImport.tsx:608
+#: packages/admin/src/components/WordPressImport.tsx:617
 msgid "Import from WordPress"
 msgstr "درون‌ریزی از وردپرس"
 
-#: packages/admin/src/components/WordPressImport.tsx:1686
-msgid "Import logo and favicon"
-msgstr "درون‌ریزی لوگو و فاوآیکون"
-
-#: packages/admin/src/components/WordPressImport.tsx:1970
+#: packages/admin/src/components/WordPressImport.tsx:1943
 msgid "Import Media"
 msgstr "درون‌ریزی رسانه"
 
-#: packages/admin/src/components/WordPressImport.tsx:1923
+#: packages/admin/src/components/WordPressImport.tsx:1896
 msgid "Import Media Files"
 msgstr "درون‌ریزی فایل‌های رسانه"
 
-#: packages/admin/src/components/WordPressImport.tsx:1595
-msgid "Import navigation menus"
-msgstr "درون‌ریزی فهرست‌های ناوبری"
-
-#: packages/admin/src/components/WordPressImport.tsx:610
+#: packages/admin/src/components/WordPressImport.tsx:619
 msgid "Import posts, pages, and custom post types from WordPress."
 msgstr "درون‌ریزی نوشته‌ها، صفحات و انواع نوشته سفارشی از وردپرس."
 
-#: packages/admin/src/components/WordPressImport.tsx:1702
-msgid "Import SEO settings"
-msgstr "درون‌ریزی تنظیمات سئو"
-
-#: packages/admin/src/components/WordPressImport.tsx:1658
+#: packages/admin/src/components/WordPressImport.tsx:1650
 msgid "Import site configuration from WordPress."
 msgstr "درون‌ریزی پیکربندی وبسایت از وردپرس."
 
-#: packages/admin/src/components/WordPressImport.tsx:1670
-msgid "Import site title and tagline"
-msgstr "درون‌ریزی عنوان وبسایت و شعار"
-
-#: packages/admin/src/components/WordPressImport.tsx:1194
+#: packages/admin/src/components/WordPressImport.tsx:1203
 msgid "Import via EmDash Exporter"
 msgstr "درون‌ریزی از طریق برون‌ریزنده EmDash"
 
@@ -3354,15 +3334,15 @@ msgstr "درون‌ریزی از طریق برون‌ریزنده EmDash"
 msgid "Imported"
 msgstr "درون‌ریزی‌شده"
 
-#: packages/admin/src/components/WordPressImport.tsx:2177
+#: packages/admin/src/components/WordPressImport.tsx:2150
 msgid "Imported by Collection"
 msgstr "درون‌ریزی‌شده بر اساس مجموعه"
 
-#: packages/admin/src/components/WordPressImport.tsx:811
+#: packages/admin/src/components/WordPressImport.tsx:820
 msgid "Importing content..."
 msgstr "در حال درون‌ریزی محتوا..."
 
-#: packages/admin/src/components/WordPressImport.tsx:2002
+#: packages/admin/src/components/WordPressImport.tsx:1975
 msgid "Importing Media"
 msgstr "در حال درون‌ریزی رسانه"
 
@@ -3370,11 +3350,11 @@ msgstr "در حال درون‌ریزی رسانه"
 msgid "Include sample content (recommended for new sites)"
 msgstr "شامل محتوای نمونه (توصیه‌شده برای وبسایت‌های جدید)"
 
-#: packages/admin/src/components/WordPressImport.tsx:1843
+#: packages/admin/src/components/WordPressImport.tsx:1816
 msgid "Incompatible"
 msgstr "ناسازگار"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2772
+#: packages/admin/src/components/PortableTextEditor.tsx:2768
 msgid "Inline Code"
 msgstr ""
 
@@ -3396,7 +3376,7 @@ msgstr "درج بلوک کد"
 msgid "Insert a horizontal rule"
 msgstr "درج خط افقی"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1953
+#: packages/admin/src/components/PortableTextEditor.tsx:1949
 msgid "Insert a reusable section"
 msgstr "درج بخش قابل استفاده مجدد"
 
@@ -3404,7 +3384,7 @@ msgstr "درج بخش قابل استفاده مجدد"
 msgid "Insert a table"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1939
+#: packages/admin/src/components/PortableTextEditor.tsx:1935
 msgid "Insert an image"
 msgstr "درج تصویر"
 
@@ -3412,15 +3392,15 @@ msgstr "درج تصویر"
 msgid "Insert from URL"
 msgstr "درج از آدرس"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2942
+#: packages/admin/src/components/PortableTextEditor.tsx:2938
 msgid "Insert Horizontal Rule"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2937
+#: packages/admin/src/components/PortableTextEditor.tsx:2933
 msgid "Insert Image"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2884
+#: packages/admin/src/components/PortableTextEditor.tsx:2880
 msgid "Insert Link"
 msgstr ""
 
@@ -3428,7 +3408,7 @@ msgstr ""
 msgid "Insert Section"
 msgstr "درج بخش"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2842
+#: packages/admin/src/components/PortableTextEditor.tsx:2838
 msgid "Insert Table"
 msgstr ""
 
@@ -3467,7 +3447,7 @@ msgid "Installing..."
 msgstr "در حال نصب..."
 
 #: packages/admin/src/components/FieldEditor.tsx:168
-#: packages/admin/src/components/FieldEditor.tsx:594
+#: packages/admin/src/components/FieldEditor.tsx:582
 msgid "Integer"
 msgstr "عدد صحیح"
 
@@ -3504,13 +3484,13 @@ msgstr "دعوت کاربر"
 msgid "Invite your first team member"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2445
-#: packages/admin/src/components/PortableTextEditor.tsx:2751
+#: packages/admin/src/components/PortableTextEditor.tsx:2441
+#: packages/admin/src/components/PortableTextEditor.tsx:2747
 msgid "Italic"
 msgstr ""
 
 #. placeholder {0}: index + 1
-#: packages/admin/src/components/PortableTextEditor.tsx:1628
+#: packages/admin/src/components/PortableTextEditor.tsx:1624
 #: packages/admin/src/components/RepeaterField.tsx:234
 msgid "Item {0}"
 msgstr "مورد {0}"
@@ -3543,7 +3523,7 @@ msgid "Keywords"
 msgstr "کلمات کلیدی"
 
 #: packages/admin/src/components/FieldEditor.tsx:411
-#: packages/admin/src/components/FieldEditor.tsx:565
+#: packages/admin/src/components/FieldEditor.tsx:553
 #: packages/admin/src/components/MenuEditor.tsx:329
 #: packages/admin/src/components/MenuEditor.tsx:498
 #: packages/admin/src/components/MenuList.tsx:166
@@ -3605,7 +3585,7 @@ msgstr "آخرین استفاده {0}"
 msgid "Leave blank to use a discoverable passkey."
 msgstr "برای استفاده از شاه‌کلید قابل‌کشف خالی بگذارید."
 
-#: packages/admin/src/components/WordPressImport.tsx:2330
+#: packages/admin/src/components/WordPressImport.tsx:2303
 msgid "Leave unassigned"
 msgstr "بدون تخصیص بگذارید"
 
@@ -3693,7 +3673,7 @@ msgstr ""
 msgid "Loading content..."
 msgstr "در حال بارگذاری محتوا..."
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2272
+#: packages/admin/src/components/PortableTextEditor.tsx:2268
 msgid "Loading editor..."
 msgstr ""
 
@@ -3728,7 +3708,7 @@ msgstr "در حال بارگذاری تنظیمات..."
 msgid "Loading setup..."
 msgstr "در حال بارگذاری راه‌اندازی..."
 
-#: packages/admin/src/components/TaxonomyManager.tsx:830
+#: packages/admin/src/components/TaxonomyManager.tsx:825
 msgid "Loading terms..."
 msgstr "در حال بارگذاری اصطلاحات..."
 
@@ -3742,10 +3722,10 @@ msgstr ""
 #: packages/admin/src/components/ContentList.tsx:387
 #: packages/admin/src/components/ContentPickerModal.tsx:233
 #: packages/admin/src/components/MarketplaceBrowse.tsx:198
-#: packages/admin/src/components/PortableTextEditor.tsx:1755
+#: packages/admin/src/components/PortableTextEditor.tsx:1751
 #: packages/admin/src/components/settings/AllowedDomainsSettings.tsx:176
 #: packages/admin/src/components/settings/SecuritySettings.tsx:113
-#: packages/admin/src/components/TaxonomyManager.tsx:782
+#: packages/admin/src/components/TaxonomyManager.tsx:777
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:170
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:252
 #: packages/admin/src/components/ThemeMarketplaceDetail.tsx:143
@@ -3776,12 +3756,12 @@ msgstr "خروج"
 msgid "Logo"
 msgstr "لوگو"
 
-#: packages/admin/src/components/WordPressImport.tsx:1689
+#: packages/admin/src/components/WordPressImport.tsx:1668
 msgid "Logo & favicon"
 msgstr "لوگو و فاوآیکون"
 
 #: packages/admin/src/components/FieldEditor.tsx:156
-#: packages/admin/src/components/FieldEditor.tsx:592
+#: packages/admin/src/components/FieldEditor.tsx:580
 msgid "Long Text"
 msgstr "متن بلند"
 
@@ -3813,7 +3793,7 @@ msgstr "مدیریت"
 
 #. placeholder {0}: taxonomyDef.label.toLowerCase()
 #. placeholder {1}: taxonomyDef.collections.join(", ")
-#: packages/admin/src/components/TaxonomyManager.tsx:801
+#: packages/admin/src/components/TaxonomyManager.tsx:796
 msgid "Manage {0} for {1}"
 msgstr "مدیریت {0} برای {1}"
 
@@ -3841,12 +3821,12 @@ msgstr "مدیریت شاه‌کلیدها و احراز هویت شما"
 msgid "Manual"
 msgstr "دستی"
 
-#: packages/admin/src/components/WordPressImport.tsx:2287
+#: packages/admin/src/components/WordPressImport.tsx:2260
 msgid "Map Authors"
 msgstr "تطبیق نگارندگان"
 
 #. placeholder {0}: mapping.wpLogin
-#: packages/admin/src/components/WordPressImport.tsx:2335
+#: packages/admin/src/components/WordPressImport.tsx:2308
 msgid "Map WordPress user {0} to EmDash user"
 msgstr ""
 
@@ -3865,22 +3845,22 @@ msgstr "فروشگاه"
 msgid "Marketplace"
 msgstr "فروشگاه"
 
-#: packages/admin/src/components/FieldEditor.tsx:641
+#: packages/admin/src/components/FieldEditor.tsx:626
 msgid "Max Items"
 msgstr "حداکثر موارد"
 
-#: packages/admin/src/components/FieldEditor.tsx:482
+#: packages/admin/src/components/FieldEditor.tsx:470
 msgid "Max Length"
 msgstr "حداکثر طول"
 
-#: packages/admin/src/components/FieldEditor.tsx:512
+#: packages/admin/src/components/FieldEditor.tsx:500
 msgid "Max Value"
 msgstr "حداکثر مقدار"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1942
+#: packages/admin/src/components/PortableTextEditor.tsx:1938
 #: packages/admin/src/components/Sidebar.tsx:185
-#: packages/admin/src/components/WordPressImport.tsx:669
-#: packages/admin/src/components/WordPressImport.tsx:1164
+#: packages/admin/src/components/WordPressImport.tsx:678
+#: packages/admin/src/components/WordPressImport.tsx:1173
 msgid "Media"
 msgstr "رسانه"
 
@@ -3889,19 +3869,19 @@ msgid "Media Details"
 msgstr "جزئیات رسانه"
 
 #. placeholder {0}: mediaResult.failed.length
-#: packages/admin/src/components/WordPressImport.tsx:2233
+#: packages/admin/src/components/WordPressImport.tsx:2206
 msgid "Media Errors ({0})"
 msgstr "خطاهای رسانه ({0})"
 
-#: packages/admin/src/components/WordPressImport.tsx:2195
+#: packages/admin/src/components/WordPressImport.tsx:2168
 msgid "Media Import"
 msgstr "درون‌ریزی رسانه"
 
-#: packages/admin/src/components/WordPressImport.tsx:2136
+#: packages/admin/src/components/WordPressImport.tsx:2109
 msgid "Media Import Complete"
 msgstr "درون‌ریزی رسانه کامل شد"
 
-#: packages/admin/src/components/WordPressImport.tsx:2147
+#: packages/admin/src/components/WordPressImport.tsx:2120
 msgid "Media import was skipped"
 msgstr "درون‌ریزی رسانه رد شد"
 
@@ -3973,7 +3953,7 @@ msgid "Menus"
 msgstr "فهرستها"
 
 #. placeholder {0}: navMenus.length
-#: packages/admin/src/components/WordPressImport.tsx:1600
+#: packages/admin/src/components/WordPressImport.tsx:1604
 msgid "Menus ({0})"
 msgstr "فهرستها ({0})"
 
@@ -3993,23 +3973,23 @@ msgstr "محتوای تگ متا برای تأیید ابزارهای وب‌م�
 msgid "Meta tag content for Google Search Console verification"
 msgstr "محتوای تگ متا برای تأیید Google Search Console"
 
-#: packages/admin/src/components/WordPressImport.tsx:1707
+#: packages/admin/src/components/WordPressImport.tsx:1681
 msgid "Meta titles, descriptions, and social images"
 msgstr "عناوین متا، توضیحات و تصاویر اجتماعی"
 
-#: packages/admin/src/components/FieldEditor.tsx:634
+#: packages/admin/src/components/FieldEditor.tsx:619
 msgid "Min Items"
 msgstr "حداقل موارد"
 
-#: packages/admin/src/components/FieldEditor.tsx:475
+#: packages/admin/src/components/FieldEditor.tsx:463
 msgid "Min Length"
 msgstr "حداقل طول"
 
-#: packages/admin/src/components/FieldEditor.tsx:505
+#: packages/admin/src/components/FieldEditor.tsx:493
 msgid "Min Value"
 msgstr "حداقل مقدار"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:520
+#: packages/admin/src/components/ContentTypeEditor.tsx:506
 msgid "Moderation"
 msgstr ""
 
@@ -4077,7 +4057,7 @@ msgstr "وبلاگ عالی من"
 #: packages/admin/src/components/MenuList.tsx:154
 #: packages/admin/src/components/TaxonomyManager.tsx:387
 #: packages/admin/src/components/TaxonomyManager.tsx:630
-#: packages/admin/src/components/TaxonomyManager.tsx:824
+#: packages/admin/src/components/TaxonomyManager.tsx:819
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:37
 #: packages/admin/src/components/users/UserDetail.tsx:148
 #: packages/admin/src/components/Widgets.tsx:365
@@ -4114,7 +4094,7 @@ msgid "NEW"
 msgstr "جدید"
 
 #. placeholder {0}: (taxonomy.labelSingular || taxonomy.label).toLowerCase()
-#: packages/admin/src/components/TaxonomySidebar.tsx:429
+#: packages/admin/src/components/TaxonomySidebar.tsx:427
 msgid "New {0}"
 msgstr "{0} جدید"
 
@@ -4122,7 +4102,7 @@ msgstr "{0} جدید"
 msgid "New {collectionLabel}"
 msgstr "{collectionLabel} جدید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1845
+#: packages/admin/src/components/WordPressImport.tsx:1818
 msgid "New collection"
 msgstr "مجموعه جدید"
 
@@ -4144,7 +4124,7 @@ msgstr "بخش جدید"
 msgid "new tab"
 msgstr "زبانه جدید"
 
-#: packages/admin/src/components/TaxonomyManager.tsx:814
+#: packages/admin/src/components/TaxonomyManager.tsx:809
 msgid "New Taxonomy"
 msgstr "دسته‌بندی جدید"
 
@@ -4182,7 +4162,7 @@ msgid "No"
 msgstr "خیر"
 
 #. placeholder {0}: taxonomy.label.toLowerCase()
-#: packages/admin/src/components/TaxonomySidebar.tsx:399
+#: packages/admin/src/components/TaxonomySidebar.tsx:397
 msgid "No {0} available."
 msgstr "{0} موجود نیست."
 
@@ -4192,7 +4172,7 @@ msgid "No {0} yet."
 msgstr "هنوز {0} موجود نیست."
 
 #. placeholder {0}: taxonomyDef.label.toLowerCase()
-#: packages/admin/src/components/TaxonomyManager.tsx:833
+#: packages/admin/src/components/TaxonomyManager.tsx:828
 msgid "No {0} yet. Create one to get started."
 msgstr "هنوز {0} موجود نیست. برای شروع یکی بسازید."
 
@@ -4249,7 +4229,7 @@ msgstr "محتوایی در این مجموعه نیست"
 msgid "No content types yet."
 msgstr "هنوز نوع محتوایی وجود ندارد."
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:624
+#: packages/admin/src/components/ContentTypeEditor.tsx:603
 msgid "No custom fields yet"
 msgstr ""
 
@@ -4269,7 +4249,7 @@ msgstr "ارائه‌دهنده ایمیلی پیکربندی نشده"
 msgid "No email provider configured. Share this link manually."
 msgstr "ارائه‌دهنده ایمیلی پیکربندی نشده. این لینک را به‌صورت دستی به اشتراک بگذارید."
 
-#: packages/admin/src/components/WordPressImport.tsx:2349
+#: packages/admin/src/components/WordPressImport.tsx:2322
 msgid "No EmDash users found"
 msgstr "کاربر EmDash یافت نشد"
 
@@ -4289,12 +4269,12 @@ msgstr "سرتیتری در سند نیست"
 msgid "No invite token provided"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1551
+#: packages/admin/src/components/PortableTextEditor.tsx:1547
 #: packages/admin/src/components/RepeaterField.tsx:160
 msgid "No items yet"
 msgstr "هنوز موردی نیست"
 
-#: packages/admin/src/components/FieldEditor.tsx:645
+#: packages/admin/src/components/FieldEditor.tsx:630
 msgid "No limit"
 msgstr "بدون حد"
 
@@ -4306,8 +4286,8 @@ msgstr ""
 msgid "No matching passkey found for this account."
 msgstr "شاه‌کلید مطابقی برای این حساب کاربری یافت نشد."
 
-#: packages/admin/src/components/FieldEditor.tsx:486
-#: packages/admin/src/components/FieldEditor.tsx:516
+#: packages/admin/src/components/FieldEditor.tsx:474
+#: packages/admin/src/components/FieldEditor.tsx:504
 msgid "No maximum"
 msgstr "بدون حداکثر"
 
@@ -4333,8 +4313,8 @@ msgstr "هنوز آیتم فهرستیی نیست"
 msgid "No menus yet"
 msgstr "هنوز فهرستیی نیست"
 
-#: packages/admin/src/components/FieldEditor.tsx:479
-#: packages/admin/src/components/FieldEditor.tsx:509
+#: packages/admin/src/components/FieldEditor.tsx:467
+#: packages/admin/src/components/FieldEditor.tsx:497
 msgid "No minimum"
 msgstr "بدون حداقل"
 
@@ -4430,7 +4410,7 @@ msgid "None (top level)"
 msgstr "هیچ‌کدام (سطح بالا)"
 
 #: packages/admin/src/components/FieldEditor.tsx:162
-#: packages/admin/src/components/FieldEditor.tsx:593
+#: packages/admin/src/components/FieldEditor.tsx:581
 msgid "Number"
 msgstr "عدد"
 
@@ -4440,7 +4420,7 @@ msgstr "تعداد نوشته‌ها برای نمایش در هر صفحه در
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:109
 #: packages/admin/src/components/PortableTextEditor.tsx:896
-#: packages/admin/src/components/PortableTextEditor.tsx:2819
+#: packages/admin/src/components/PortableTextEditor.tsx:2815
 msgid "Numbered List"
 msgstr "لیست شماره‌دار"
 
@@ -4482,11 +4462,11 @@ msgstr "اوه!"
 msgid "Open in new tab"
 msgstr "باز کردن در زبانه جدید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1364
+#: packages/admin/src/components/WordPressImport.tsx:1373
 msgid "Open WordPress Profile"
 msgstr "باز کردن نمایه وردپرس"
 
-#: packages/admin/src/components/FieldEditor.tsx:527
+#: packages/admin/src/components/FieldEditor.tsx:515
 msgid ""
 "Option 1\n"
 "Option 2\n"
@@ -4511,7 +4491,7 @@ msgstr "توضیحات اختیاری"
 msgid "Optional tooltip on hover"
 msgstr "راهنمای اختیاری هنگام قرارگیری ماوس"
 
-#: packages/admin/src/components/FieldEditor.tsx:524
+#: packages/admin/src/components/FieldEditor.tsx:512
 msgid "Options (one per line)"
 msgstr "گزینه‌ها (هر خط یکی)"
 
@@ -4519,7 +4499,7 @@ msgstr "گزینه‌ها (هر خط یکی)"
 msgid "or choose from library"
 msgstr "یا از کتابخانه انتخاب کنید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1420
+#: packages/admin/src/components/WordPressImport.tsx:1429
 msgid "Or click to browse. Accepts .xml files exported from WordPress."
 msgstr "یا برای مرور کلیک کنید. فایل‌های .xml برون‌ریزی‌شده از وردپرس پذیرفته می‌شوند."
 
@@ -4528,11 +4508,11 @@ msgstr "یا برای مرور کلیک کنید. فایل‌های .xml برو�
 msgid "Or continue with"
 msgstr "یا ادامه با"
 
-#: packages/admin/src/components/WordPressImport.tsx:1221
+#: packages/admin/src/components/WordPressImport.tsx:1230
 msgid "Or upload an export file"
 msgstr "یا فایل برون‌ریزی بارگذاری کنید"
 
-#: packages/admin/src/components/WordPressImport.tsx:940
+#: packages/admin/src/components/WordPressImport.tsx:949
 msgid "or upload directly"
 msgstr "یا مستقیماً بارگذاری کنید"
 
@@ -4566,7 +4546,7 @@ msgid "Page Not Found"
 msgstr ""
 
 #: packages/admin/src/components/PluginManager.tsx:323
-#: packages/admin/src/components/WordPressImport.tsx:1158
+#: packages/admin/src/components/WordPressImport.tsx:1167
 msgid "Pages"
 msgstr "صفحات"
 
@@ -4648,7 +4628,7 @@ msgstr "شاه‌کلیدها نیاز به HTTPS یا http://localhost (با پ
 msgid "Path"
 msgstr "مسیر"
 
-#: packages/admin/src/components/FieldEditor.tsx:491
+#: packages/admin/src/components/FieldEditor.tsx:479
 msgid "Pattern (Regex)"
 msgstr "الگو (عبارت منظم)"
 
@@ -4716,7 +4696,7 @@ msgstr "لطفاً یک آدرس ایمیل معتبر وارد کنید"
 msgid "Please enter a valid URL"
 msgstr "لطفاً یک آدرس معتبر وارد کنید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1015
+#: packages/admin/src/components/WordPressImport.tsx:1024
 msgid "Plugin"
 msgstr "پلاگین"
 
@@ -4741,7 +4721,7 @@ msgstr ""
 msgid "Plugin not found"
 msgstr "افزونه یافت نشد"
 
-#: packages/admin/src/components/WordPressImport.tsx:1039
+#: packages/admin/src/components/WordPressImport.tsx:1048
 msgid "plugin on your WordPress site."
 msgstr "افزونه در وبسایت وردپرس شما."
 
@@ -4775,7 +4755,7 @@ msgstr "پلاگین‌ها"
 msgid "Points search engines to the original version of this page, if it's duplicated from another URL"
 msgstr "موتورهای جستجو را به نسخه اصلی این صفحه هدایت می‌کند، اگر از آدرس دیگری تکراری شده باشد"
 
-#: packages/admin/src/components/WordPressImport.tsx:1152
+#: packages/admin/src/components/WordPressImport.tsx:1161
 msgid "Posts"
 msgstr "نوشته‌ها"
 
@@ -4787,7 +4767,7 @@ msgstr "نوشته در هر صفحه"
 msgid "Preparing registration..."
 msgstr "در حال آماده‌سازی ثبت‌نام..."
 
-#: packages/admin/src/components/WordPressImport.tsx:2047
+#: packages/admin/src/components/WordPressImport.tsx:2020
 msgid "Preparing to download files from WordPress..."
 msgstr "در حال آماده‌سازی دریافت فایل‌ها از وردپرس..."
 
@@ -4871,7 +4851,7 @@ msgstr ""
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:85
 #: packages/admin/src/components/PortableTextEditor.tsx:906
-#: packages/admin/src/components/PortableTextEditor.tsx:2826
+#: packages/admin/src/components/PortableTextEditor.tsx:2822
 msgid "Quote"
 msgstr "نقل‌قول"
 
@@ -4905,7 +4885,7 @@ msgstr ""
 msgid "Reading"
 msgstr "خواندن"
 
-#: packages/admin/src/components/WordPressImport.tsx:1849
+#: packages/admin/src/components/WordPressImport.tsx:1822
 msgid "Ready"
 msgstr "آماده"
 
@@ -4941,7 +4921,7 @@ msgstr "در حال هدایت به صفحه ورود..."
 msgid "Redirects"
 msgstr "تغییر مسیر‌ها"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2962
+#: packages/admin/src/components/PortableTextEditor.tsx:2958
 msgid "Redo"
 msgstr ""
 
@@ -4973,7 +4953,7 @@ msgstr "ثبت‌نام لغو شد یا زمان آن به پایان رسید.
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:76
 #: packages/admin/src/components/ContentEditor.tsx:1983
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:177
-#: packages/admin/src/components/PortableTextEditor.tsx:2925
+#: packages/admin/src/components/PortableTextEditor.tsx:2921
 #: packages/admin/src/components/settings/GeneralSettings.tsx:202
 #: packages/admin/src/components/settings/GeneralSettings.tsx:246
 #: packages/admin/src/components/settings/PasskeyItem.tsx:187
@@ -4984,7 +4964,7 @@ msgstr "حذف"
 #. placeholder {0}: passkey.name
 #. placeholder {0}: term.label
 #: packages/admin/src/components/settings/PasskeyItem.tsx:188
-#: packages/admin/src/components/TaxonomySidebar.tsx:224
+#: packages/admin/src/components/TaxonomySidebar.tsx:222
 msgid "Remove {0}"
 msgstr "حذف {0}"
 
@@ -5019,13 +4999,13 @@ msgid "Remove Image?"
 msgstr "حذف تصویر؟"
 
 #. placeholder {0}: index + 1
-#: packages/admin/src/components/PortableTextEditor.tsx:1667
+#: packages/admin/src/components/PortableTextEditor.tsx:1663
 #: packages/admin/src/components/RepeaterField.tsx:270
 msgid "Remove item {0}"
 msgstr "حذف مورد {0}"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2426
-#: packages/admin/src/components/PortableTextEditor.tsx:2427
+#: packages/admin/src/components/PortableTextEditor.tsx:2422
+#: packages/admin/src/components/PortableTextEditor.tsx:2423
 msgid "Remove link"
 msgstr ""
 
@@ -5037,7 +5017,7 @@ msgstr "حذف شاه‌کلید"
 msgid "Remove passkey?"
 msgstr "حذف شاه‌کلید؟"
 
-#: packages/admin/src/components/FieldEditor.tsx:625
+#: packages/admin/src/components/FieldEditor.tsx:610
 msgid "Remove sub-field"
 msgstr "حذف زیرفیلد"
 
@@ -5089,13 +5069,13 @@ msgstr "مخزن"
 msgid "Request a new link"
 msgstr "درخواست لینک جدید"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:742
-#: packages/admin/src/components/FieldEditor.tsx:441
-#: packages/admin/src/components/FieldEditor.tsx:613
+#: packages/admin/src/components/ContentTypeEditor.tsx:721
+#: packages/admin/src/components/FieldEditor.tsx:437
+#: packages/admin/src/components/FieldEditor.tsx:592
 msgid "Required"
 msgstr "الزامی"
 
-#: packages/admin/src/components/WordPressImport.tsx:1862
+#: packages/admin/src/components/WordPressImport.tsx:1835
 msgid "Required fields:"
 msgstr "فیلدهای الزامی:"
 
@@ -5166,7 +5146,7 @@ msgstr "بلوک‌های محتوای قابل استفاده مجدد که م�
 msgid "Reverted to published version"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:641
+#: packages/admin/src/components/WordPressImport.tsx:650
 msgid "Review"
 msgstr ""
 
@@ -5256,7 +5236,7 @@ msgstr ""
 msgid "Save alt text"
 msgstr ""
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:581
+#: packages/admin/src/components/ContentTypeEditor.tsx:560
 #: packages/admin/src/components/users/UserDetail.tsx:311
 msgid "Save Changes"
 msgstr "ذخیره تغییرات"
@@ -5291,8 +5271,8 @@ msgstr "ذخیره شد"
 
 #: packages/admin/src/components/ContentEditor.tsx:623
 #: packages/admin/src/components/ContentEditor.tsx:2121
-#: packages/admin/src/components/ContentTypeEditor.tsx:581
-#: packages/admin/src/components/FieldEditor.tsx:674
+#: packages/admin/src/components/ContentTypeEditor.tsx:560
+#: packages/admin/src/components/FieldEditor.tsx:659
 #: packages/admin/src/components/MediaDetailPanel.tsx:241
 #: packages/admin/src/components/MenuEditor.tsx:525
 #: packages/admin/src/components/Redirects.tsx:180
@@ -5336,11 +5316,11 @@ msgstr "زمان‌بندی‌شده"
 msgid "Scheduled for: {0}"
 msgstr "زمان‌بندی شده برای: {0}"
 
-#: packages/admin/src/components/WordPressImport.tsx:2155
+#: packages/admin/src/components/WordPressImport.tsx:2128
 msgid "Schema Changes"
 msgstr "تغییرات طرح"
 
-#: packages/admin/src/components/WordPressImport.tsx:1529
+#: packages/admin/src/components/WordPressImport.tsx:1538
 msgid "Schema preparation failed"
 msgstr "آماده‌سازی طرح ناموفق بود"
 
@@ -5472,12 +5452,12 @@ msgstr ""
 msgid "Search..."
 msgstr "جستجو…"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:744
-#: packages/admin/src/components/FieldEditor.tsx:464
+#: packages/admin/src/components/ContentTypeEditor.tsx:723
+#: packages/admin/src/components/FieldEditor.tsx:452
 msgid "Searchable"
 msgstr "قابل جستجو"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1952
+#: packages/admin/src/components/PortableTextEditor.tsx:1948
 msgid "Section"
 msgstr "بخش"
 
@@ -5564,7 +5544,7 @@ msgid "Security Settings"
 msgstr "تنظیمات امنیتی"
 
 #: packages/admin/src/components/FieldEditor.tsx:186
-#: packages/admin/src/components/FieldEditor.tsx:597
+#: packages/admin/src/components/FieldEditor.tsx:585
 msgid "Select"
 msgstr "انتخاب"
 
@@ -5622,8 +5602,8 @@ msgid "Select image"
 msgstr "انتخاب تصویر"
 
 #: packages/admin/src/components/MediaPickerModal.tsx:125
-#: packages/admin/src/components/PortableTextEditor.tsx:2314
-#: packages/admin/src/components/PortableTextEditor.tsx:2987
+#: packages/admin/src/components/PortableTextEditor.tsx:2310
+#: packages/admin/src/components/PortableTextEditor.tsx:2983
 msgid "Select Image"
 msgstr "انتخاب تصویر"
 
@@ -5644,13 +5624,13 @@ msgstr "انتخاب تصویر OG"
 msgid "Select OG Image"
 msgstr "انتخاب تصویر OG"
 
-#: packages/admin/src/components/WordPressImport.tsx:1562
+#: packages/admin/src/components/WordPressImport.tsx:1571
 msgid "Select which content types to import."
 msgstr "انتخاب کنید کدام انواع محتوا درون‌ریزی شوند."
 
 #: packages/admin/src/components/BlockKitFieldWidget.tsx:108
-#: packages/admin/src/components/PortableTextEditor.tsx:1762
-#: packages/admin/src/components/RepeaterField.tsx:364
+#: packages/admin/src/components/PortableTextEditor.tsx:1758
+#: packages/admin/src/components/RepeaterField.tsx:361
 msgid "Select..."
 msgstr "انتخاب…"
 
@@ -5701,7 +5681,7 @@ msgid "Sending..."
 msgstr "در حال ارسال..."
 
 #: packages/admin/src/components/ContentEditor.tsx:1022
-#: packages/admin/src/components/ContentTypeEditor.tsx:482
+#: packages/admin/src/components/ContentTypeEditor.tsx:474
 #: packages/admin/src/components/Settings.tsx:81
 msgid "SEO"
 msgstr "سئو"
@@ -5711,7 +5691,7 @@ msgstr "سئو"
 msgid "SEO Settings"
 msgstr "تنظیمات سئو"
 
-#: packages/admin/src/components/WordPressImport.tsx:1705
+#: packages/admin/src/components/WordPressImport.tsx:1679
 msgid "SEO settings (Yoast)"
 msgstr "تنظیمات سئو (Yoast)"
 
@@ -5728,7 +5708,7 @@ msgstr "عنوان سئو"
 msgid "Set a custom display size for this image instance."
 msgstr "یک اندازه نمایش سفارشی برای این نمونه تصویر تنظیم کنید."
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:545
+#: packages/admin/src/components/ContentTypeEditor.tsx:531
 msgid "Set to 0 to never close comments automatically."
 msgstr ""
 
@@ -5746,7 +5726,7 @@ msgstr "در حال راه‌اندازی..."
 #: packages/admin/src/components/PluginManager.tsx:384
 #: packages/admin/src/components/Settings.tsx:62
 #: packages/admin/src/components/Sidebar.tsx:229
-#: packages/admin/src/components/WordPressImport.tsx:1655
+#: packages/admin/src/components/WordPressImport.tsx:1647
 msgid "Settings"
 msgstr "تنظیمات"
 
@@ -5771,7 +5751,7 @@ msgid "Share this link with the invited user"
 msgstr "این لینک را با کاربر دعوت‌شده به اشتراک بگذارید"
 
 #: packages/admin/src/components/FieldEditor.tsx:150
-#: packages/admin/src/components/FieldEditor.tsx:591
+#: packages/admin/src/components/FieldEditor.tsx:579
 msgid "Short Text"
 msgstr "متن کوتاه"
 
@@ -5855,7 +5835,7 @@ msgstr "تنظیمات وبسایت"
 msgid "Site Title"
 msgstr "عنوان وبسایت"
 
-#: packages/admin/src/components/WordPressImport.tsx:1673
+#: packages/admin/src/components/WordPressImport.tsx:1659
 msgid "Site title & tagline"
 msgstr "عنوان وبسایت و شعار"
 
@@ -5875,11 +5855,11 @@ msgstr "اندازه"
 msgid "Size:"
 msgstr "اندازه:"
 
-#: packages/admin/src/components/WordPressImport.tsx:1967
+#: packages/admin/src/components/WordPressImport.tsx:1940
 msgid "Skip Media Import"
 msgstr "رد کردن درون‌ریزی رسانه"
 
-#: packages/admin/src/components/WordPressImport.tsx:1992
+#: packages/admin/src/components/WordPressImport.tsx:1965
 msgid "Skipped"
 msgstr "رد شده"
 
@@ -5924,7 +5904,7 @@ msgstr "لینک‌های پروفایل شبکه‌های اجتماعی"
 msgid "Social Profiles"
 msgstr "پروفایل‌های اجتماعی"
 
-#: packages/admin/src/components/WordPressImport.tsx:1721
+#: packages/admin/src/components/WordPressImport.tsx:1696
 msgid "Some content types cannot be imported"
 msgstr "برخی انواع محتوا قابل درون‌ریزی نیستند"
 
@@ -5965,7 +5945,7 @@ msgstr "جفنگ"
 msgid "Spam"
 msgstr "اسپم"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2975
+#: packages/admin/src/components/PortableTextEditor.tsx:2971
 msgid "Spotlight Mode"
 msgstr ""
 
@@ -5973,7 +5953,7 @@ msgstr ""
 msgid "Spreadsheets"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1783
+#: packages/admin/src/components/WordPressImport.tsx:1758
 msgid "Start Import"
 msgstr "شروع درون‌ریزی"
 
@@ -5989,16 +5969,16 @@ msgstr "وضعیت"
 msgid "Status code"
 msgstr "کد وضعیت"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2459
-#: packages/admin/src/components/PortableTextEditor.tsx:2765
+#: packages/admin/src/components/PortableTextEditor.tsx:2455
+#: packages/admin/src/components/PortableTextEditor.tsx:2761
 msgid "Strikethrough"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1582
+#: packages/admin/src/components/WordPressImport.tsx:1591
 msgid "Structure"
 msgstr "ساختار"
 
-#: packages/admin/src/components/FieldEditor.tsx:535
+#: packages/admin/src/components/FieldEditor.tsx:523
 msgid "Sub-Fields"
 msgstr "زیرفیلدها"
 
@@ -6015,7 +5995,7 @@ msgstr "همگام‌شده"
 msgid "Synced passkey"
 msgstr "شاه‌کلید همگام‌شده"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:789
+#: packages/admin/src/components/ContentTypeEditor.tsx:768
 msgid "System"
 msgstr ""
 
@@ -6023,7 +6003,7 @@ msgstr ""
 msgid "System ({resolvedLabel})"
 msgstr "سیستم ({resolvedLabel})"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:611
+#: packages/admin/src/components/ContentTypeEditor.tsx:590
 msgid "System Fields"
 msgstr ""
 
@@ -6041,13 +6021,9 @@ msgid "Tags"
 msgstr "برچسب‌ها"
 
 #. placeholder {0}: analysis.tags
-#: packages/admin/src/components/WordPressImport.tsx:1640
+#: packages/admin/src/components/WordPressImport.tsx:1633
 msgid "Tags ({0})"
 msgstr "برچسب‌ها ({0})"
-
-#: packages/admin/src/components/WordPressImport.tsx:1637
-msgid "Tags will be imported"
-msgstr "برچسب‌ها درون‌ریزی خواهند شد"
 
 #: packages/admin/src/components/MenuEditor.tsx:340
 #: packages/admin/src/components/MenuEditor.tsx:511
@@ -6058,7 +6034,7 @@ msgstr "هدف"
 msgid "Target locale"
 msgstr ""
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:497
+#: packages/admin/src/components/TaxonomySidebar.tsx:495
 msgid "Taxonomies"
 msgstr "دسته‌بندی‌ها"
 
@@ -6066,11 +6042,11 @@ msgstr "دسته‌بندی‌ها"
 msgid "Taxonomies Manage"
 msgstr ""
 
-#: packages/admin/src/components/TaxonomyManager.tsx:901
+#: packages/admin/src/components/TaxonomyManager.tsx:896
 msgid "Taxonomy created"
 msgstr "دسته‌بندی ساخته شد"
 
-#: packages/admin/src/components/TaxonomyManager.tsx:788
+#: packages/admin/src/components/TaxonomyManager.tsx:783
 msgid "Taxonomy not found:"
 msgstr "دسته‌بندی یافت نشد:"
 
@@ -6083,17 +6059,17 @@ msgid "Template:"
 msgstr "قالب:"
 
 #: packages/admin/src/components/TaxonomyManager.tsx:360
-#: packages/admin/src/components/TaxonomyManager.tsx:817
+#: packages/admin/src/components/TaxonomyManager.tsx:812
 msgid "Term"
 msgstr "مورد"
 
 #. placeholder {0}: term.label
 #. placeholder {1}: term.locale.toUpperCase()
-#: packages/admin/src/components/TaxonomyManager.tsx:762
+#: packages/admin/src/components/TaxonomyManager.tsx:757
 msgid "Term \"{0}\" created in {1}."
 msgstr ""
 
-#: packages/admin/src/components/TaxonomyManager.tsx:744
+#: packages/admin/src/components/TaxonomyManager.tsx:739
 msgid "Term deleted"
 msgstr "اصطلاح حذف شد"
 
@@ -6101,7 +6077,7 @@ msgstr "اصطلاح حذف شد"
 msgid "test@example.com"
 msgstr "test@example.com"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2735
+#: packages/admin/src/components/PortableTextEditor.tsx:2731
 msgid "Text formatting"
 msgstr ""
 
@@ -6109,7 +6085,7 @@ msgstr ""
 msgid "The device will not be granted access."
 msgstr "به دستگاه دسترسی داده نخواهد شد."
 
-#: packages/admin/src/components/WordPressImport.tsx:1723
+#: packages/admin/src/components/WordPressImport.tsx:1698
 msgid "The existing collection has fields with incompatible types."
 msgstr "مجموعه موجود فیلدهایی با انواع ناسازگار دارد."
 
@@ -6197,7 +6173,7 @@ msgstr "این فیلد الزامی است"
 msgid "This is a custom section."
 msgstr "این یک بخش سفارشی است."
 
-#: packages/admin/src/components/WordPressImport.tsx:1138
+#: packages/admin/src/components/WordPressImport.tsx:1147
 msgid "This is a WordPress site."
 msgstr "این یک وبسایت وردپرس است."
 
@@ -6205,7 +6181,7 @@ msgstr "این یک وبسایت وردپرس است."
 msgid "This link expires in 7 days and can only be used once."
 msgstr "این لینک در ۷ روز منقضی می‌شود و فقط یک بار قابل استفاده است."
 
-#: packages/admin/src/components/WordPressImport.tsx:812
+#: packages/admin/src/components/WordPressImport.tsx:821
 msgid "This may take a while for large exports."
 msgstr "این ممکن است برای برون‌ریزی‌های بزرگ زمان‌بر باشد."
 
@@ -6246,7 +6222,7 @@ msgid "This will move the item to trash. You can restore it later from the trash
 msgstr "این مورد به سطل زباله منتقل خواهد شد. می‌توانید بعداً آن را از سطل زباله بازیابی کنید."
 
 #. placeholder {0}: deleteTarget?.label
-#: packages/admin/src/components/TaxonomyManager.tsx:887
+#: packages/admin/src/components/TaxonomyManager.tsx:882
 msgid "This will permanently delete \"{0}\" and remove it from all content."
 msgstr "این «{0}» را برای همیشه حذف کرده و از همه محتوا حذف می‌کند."
 
@@ -6308,7 +6284,7 @@ msgstr "برای نصب افزونه‌ها، یا آن‌ها را به astro.c
 msgid "to select"
 msgstr "برای انتخاب"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2551
+#: packages/admin/src/components/PortableTextEditor.tsx:2547
 msgid "Toggle header row"
 msgstr ""
 
@@ -6326,7 +6302,7 @@ msgstr "توکن ساخته شد: {0}"
 msgid "Token Name"
 msgstr "نام توکن"
 
-#: packages/admin/src/components/WordPressImport.tsx:1107
+#: packages/admin/src/components/WordPressImport.tsx:1116
 msgid "Tools → Export"
 msgstr "ابزارها → برون‌ریزی"
 
@@ -6356,7 +6332,7 @@ msgid "Translating..."
 msgstr ""
 
 #: packages/admin/src/components/MenuEditor.tsx:89
-#: packages/admin/src/components/TaxonomyManager.tsx:761
+#: packages/admin/src/components/TaxonomyManager.tsx:756
 #: packages/admin/src/router.tsx:843
 msgid "Translation created"
 msgstr ""
@@ -6407,7 +6383,7 @@ msgstr "جستجو یا فیلترهای خود را تنظیم کنید."
 msgid "Try again"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1412
+#: packages/admin/src/components/WordPressImport.tsx:1421
 msgid "Try Again"
 msgstr "تلاش مجدد"
 
@@ -6415,8 +6391,8 @@ msgstr "تلاش مجدد"
 msgid "Try another code"
 msgstr "کد دیگری را امتحان کنید"
 
-#: packages/admin/src/components/WordPressImport.tsx:1116
-#: packages/admin/src/components/WordPressImport.tsx:1238
+#: packages/admin/src/components/WordPressImport.tsx:1125
+#: packages/admin/src/components/WordPressImport.tsx:1247
 msgid "Try Another URL"
 msgstr "آدرس دیگری را امتحان کنید"
 
@@ -6433,13 +6409,13 @@ msgstr ""
 msgid "Twitter"
 msgstr "X"
 
-#: packages/admin/src/components/FieldEditor.tsx:583
+#: packages/admin/src/components/FieldEditor.tsx:571
 #: packages/admin/src/components/MediaLibrary.tsx:417
 msgid "Type"
 msgstr "نوع"
 
 #. placeholder {0}: status.existingType
-#: packages/admin/src/components/WordPressImport.tsx:1881
+#: packages/admin/src/components/WordPressImport.tsx:1854
 msgid "Type mismatch ({0})"
 msgstr "عدم تطابق نوع ({0})"
 
@@ -6453,18 +6429,18 @@ msgstr "دسترسی به فروشگاه ممکن نیست"
 msgid "Unassigned"
 msgstr "بدون تخصیص"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2452
-#: packages/admin/src/components/PortableTextEditor.tsx:2758
+#: packages/admin/src/components/PortableTextEditor.tsx:2448
+#: packages/admin/src/components/PortableTextEditor.tsx:2754
 msgid "Underline"
 msgstr ""
 
-#: packages/admin/src/components/PortableTextEditor.tsx:2955
+#: packages/admin/src/components/PortableTextEditor.tsx:2951
 msgid "Undo"
 msgstr ""
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:181
 #: packages/admin/src/components/PluginManager.tsx:494
-#: packages/admin/src/components/PluginManager.tsx:588
+#: packages/admin/src/components/PluginManager.tsx:584
 msgid "Uninstall"
 msgstr "حذف نصب"
 
@@ -6476,12 +6452,12 @@ msgstr "حذف نصب {pluginName}؟"
 msgid "Uninstall confirmation"
 msgstr "تأیید حذف نصب"
 
-#: packages/admin/src/components/PluginManager.tsx:588
+#: packages/admin/src/components/PluginManager.tsx:584
 msgid "Uninstalling..."
 msgstr "در حال حذف نصب..."
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:743
-#: packages/admin/src/components/FieldEditor.tsx:450
+#: packages/admin/src/components/ContentTypeEditor.tsx:722
+#: packages/admin/src/components/FieldEditor.tsx:442
 msgid "Unique"
 msgstr "یکتا"
 
@@ -6555,7 +6531,7 @@ msgstr "بالا"
 msgid "Update"
 msgstr "به‌روزرسانی"
 
-#: packages/admin/src/components/FieldEditor.tsx:674
+#: packages/admin/src/components/FieldEditor.tsx:659
 msgid "Update Field"
 msgstr "به‌روزرسانی فیلد"
 
@@ -6591,7 +6567,7 @@ msgstr "تاریخ به‌روزرسانی"
 msgid "Updated: {0}"
 msgstr "به‌روزرسانی شده در: {0}"
 
-#: packages/admin/src/components/WordPressImport.tsx:835
+#: packages/admin/src/components/WordPressImport.tsx:844
 msgid "Updating content URLs..."
 msgstr "در حال به‌روزرسانی آدرس‌های محتوا..."
 
@@ -6608,7 +6584,7 @@ msgstr "بارگذاری"
 msgid "Upload a file to get started"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1221
+#: packages/admin/src/components/WordPressImport.tsx:1230
 msgid "Upload an export file"
 msgstr "بارگذاری فایل برون‌ریزی"
 
@@ -6625,8 +6601,8 @@ msgstr "بارگذاری و حذف رسانه"
 msgid "Upload and manage media"
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1114
-#: packages/admin/src/components/WordPressImport.tsx:1235
+#: packages/admin/src/components/WordPressImport.tsx:1123
+#: packages/admin/src/components/WordPressImport.tsx:1244
 msgid "Upload Export File"
 msgstr "بارگذاری فایل برون‌ریزی"
 
@@ -6671,7 +6647,7 @@ msgstr "رسانه بارگذاری کنید تا شروع شود"
 msgid "Upload to {0}"
 msgstr "بارگذاری به {0}"
 
-#: packages/admin/src/components/WordPressImport.tsx:951
+#: packages/admin/src/components/WordPressImport.tsx:960
 msgid "Upload WordPress export file"
 msgstr "بارگذاری فایل برون‌ریزی وردپرس"
 
@@ -6679,7 +6655,7 @@ msgstr "بارگذاری فایل برون‌ریزی وردپرس"
 msgid "Uploaded:"
 msgstr "بارگذاری‌شد:"
 
-#: packages/admin/src/components/WordPressImport.tsx:1990
+#: packages/admin/src/components/WordPressImport.tsx:1963
 msgid "Uploading"
 msgstr "در حال آپلود"
 
@@ -6695,10 +6671,10 @@ msgid "Uploading..."
 msgstr "در حال بارگذاری..."
 
 #: packages/admin/src/components/FieldEditor.tsx:234
-#: packages/admin/src/components/FieldEditor.tsx:598
+#: packages/admin/src/components/FieldEditor.tsx:586
 #: packages/admin/src/components/MenuEditor.tsx:331
 #: packages/admin/src/components/MenuEditor.tsx:501
-#: packages/admin/src/components/PortableTextEditor.tsx:2891
+#: packages/admin/src/components/PortableTextEditor.tsx:2887
 msgid "URL"
 msgstr "URL"
 
@@ -6787,8 +6763,8 @@ msgstr "کاربران با آدرس ایمیل از این دامنه‌ها م
 msgid "v{0} available"
 msgstr "v{0} در دسترس"
 
-#: packages/admin/src/components/FieldEditor.tsx:472
-#: packages/admin/src/components/FieldEditor.tsx:502
+#: packages/admin/src/components/FieldEditor.tsx:460
+#: packages/admin/src/components/FieldEditor.tsx:490
 msgid "Validation"
 msgstr "اعتبارسنجی"
 
@@ -6847,11 +6823,11 @@ msgid "Warn"
 msgstr "هشدار"
 
 #. placeholder {0}: result.url
-#: packages/admin/src/components/WordPressImport.tsx:1096
+#: packages/admin/src/components/WordPressImport.tsx:1105
 msgid "We couldn't connect to a WordPress site at {0}. This could mean the site isn't WordPress, the REST API is disabled, or the site isn't accessible."
 msgstr "نتوانستیم به وبسایت وردپرس در {0} متصل شویم. ممکن است وبسایت وردپرس نباشد، API REST غیرفعال باشد، یا وبسایت قابل دسترس نباشد."
 
-#: packages/admin/src/components/WordPressImport.tsx:917
+#: packages/admin/src/components/WordPressImport.tsx:926
 msgid "We'll check what import options are available for your site."
 msgstr "بررسی خواهیم کرد چه گزینه‌های درون‌ریزی برای وبسایت شما موجود است."
 
@@ -6888,11 +6864,11 @@ msgstr "به EmDash خوش آمدید، {firstName}!"
 msgid "Welcome to EmDash!"
 msgstr "به EmDash خوش آمدید!"
 
-#: packages/admin/src/components/WordPressImport.tsx:1954
+#: packages/admin/src/components/WordPressImport.tsx:1927
 msgid "What happens when you import:"
 msgstr "هنگام درون‌ریزی چه اتفاقی می‌افتد:"
 
-#: packages/admin/src/components/WordPressImport.tsx:1735
+#: packages/admin/src/components/WordPressImport.tsx:1710
 msgid "What will happen when you import"
 msgstr "هنگام درون‌ریزی چه اتفاقی خواهد افتاد"
 
@@ -6957,7 +6933,7 @@ msgstr "ابزارک‌ها"
 msgid "Width"
 msgstr "عرض"
 
-#: packages/admin/src/components/WordPressImport.tsx:1877
+#: packages/admin/src/components/WordPressImport.tsx:1850
 msgid "Will create"
 msgstr "ساخته خواهد شد"
 
@@ -6969,7 +6945,7 @@ msgstr "دیگر نمی‌توانند بدون دعوت ثبت‌نام کنن�
 msgid "Without an email provider, invite links must be shared manually."
 msgstr "بدون ارائه‌دهنده ایمیل، لینک‌های دعوت باید به‌صورت دستی به اشتراک گذاشته شوند."
 
-#: packages/admin/src/components/WordPressImport.tsx:1306
+#: packages/admin/src/components/WordPressImport.tsx:1315
 msgid "WordPress Username"
 msgstr "نام کاربری وردپرس"
 
@@ -6977,7 +6953,7 @@ msgstr "نام کاربری وردپرس"
 msgid "Write widget content..."
 msgstr ""
 
-#: packages/admin/src/components/WordPressImport.tsx:1014
+#: packages/admin/src/components/WordPressImport.tsx:1023
 msgid "WXR File"
 msgstr "فایل WXR"
 
@@ -7031,7 +7007,7 @@ msgstr ""
 msgid "You'll be prompted to use your device's biometric authentication, security key, or PIN."
 msgstr "از شما خواسته می‌شود از احراز هویت بیومتریک، کلید امنیتی یا پین دستگاه خود استفاده کنید."
 
-#: packages/admin/src/components/WordPressImport.tsx:1199
+#: packages/admin/src/components/WordPressImport.tsx:1208
 msgid "You'll be redirected to WordPress to authorize the connection."
 msgstr "به وردپرس هدایت می‌شوید تا اتصال را مجاز کنید."
 
@@ -7108,7 +7084,7 @@ msgid "Your Twitter/X handle (e.g., @username)"
 msgstr "شناسه یا نام کاربری توییتر/X شما (مثلاً username در @username یا x.com/username)"
 
 #. placeholder {0}: attachments.count
-#: packages/admin/src/components/WordPressImport.tsx:1925
+#: packages/admin/src/components/WordPressImport.tsx:1898
 msgid "Your WordPress export contains {0} media files."
 msgstr "فایل برون‌ریزی وردپرس شما شامل {0} فایل رسانه‌ای است."
 
