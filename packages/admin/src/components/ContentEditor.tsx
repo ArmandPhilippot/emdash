@@ -562,17 +562,14 @@ export function ContentEditor({
 				isDistractionFree && "fixed inset-0 z-50 bg-kumo-base p-8 overflow-auto",
 			)}
 		>
-			{/* Header - sticky to keep Save / Publish in view while users scroll
-			    long forms. Becomes a hover-revealed overlay in distraction-free
-			    mode. Negative margins cancel <main>'s p-6 so the header bg
-			    spans edge-to-edge of the scroll container.
-			    See packages/admin/src/components/EditorHeader.tsx for the
-			    standalone sticky-header pattern used by other editor pages. */}
+			{/* Header. In distraction-free mode this becomes a hover-revealed
+			    overlay so the chrome stays out of the way while writing. In
+			    normal mode it's a regular block; the form also renders a
+			    Save button at the bottom so save is reachable without
+			    scrolling back up. */}
 			<div
 				className={cn(
 					"flex flex-wrap items-center justify-between gap-y-2",
-					!isDistractionFree &&
-						"sticky top-0 z-30 -mx-6 -mt-6 px-6 pt-6 pb-3 mb-3 border-b border-kumo-line bg-kumo-base/95 supports-[backdrop-filter]:bg-kumo-base/80 backdrop-blur",
 					isDistractionFree &&
 						"opacity-0 hover:opacity-100 transition-opacity duration-200 fixed top-0 start-0 end-0 bg-kumo-base/95 backdrop-blur p-4 z-10",
 				)}
@@ -793,6 +790,15 @@ export function ContentEditor({
 							})}
 						</div>
 					</div>
+
+					{/* Save action at the bottom of the main column so users hit it
+					    naturally when they finish editing, without needing to scroll
+					    past the entire sidebar. */}
+					{!isDistractionFree && (
+						<div className="flex justify-end">
+							<SaveButton type="submit" isDirty={isDirty} isSaving={isSaving || false} />
+						</div>
+					)}
 				</div>
 
 				{/* Sidebar - hidden in distraction-free mode */}
