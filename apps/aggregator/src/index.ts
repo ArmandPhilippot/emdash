@@ -16,7 +16,11 @@
  */
 
 import type { RecordsJob } from "./env.js";
+import { drainDeadLetterBatch, processBatch } from "./records-consumer.js";
 import { RECORDS_DO_NAME } from "./records-do.js";
+
+const RECORDS_QUEUE_NAME = "emdash-aggregator-records";
+const RECORDS_DLQ_NAME = "emdash-aggregator-records-dlq";
 
 export { RecordsJetstreamDO } from "./records-do.js";
 
@@ -50,8 +54,20 @@ export default {
 		});
 	},
 
-	async queue(_batch: MessageBatch<RecordsJob>, _env: Env, _ctx: ExecutionContext): Promise<void> {
-		// PDS-verified ingest will land here.
+	async queue(batch: MessageBatch<RecordsJob>, env: Env, _ctx: ExecutionContext): Promise<void> {
+		// Workerd routes both consumers (records + records-dlq) here; dispatch
+		// by queue name. Adding a third queue requires updating this switch.
+		switch (batch.queue) {
+			case RECORDS_QUEUE_NAME:
+				await processBatch(batch, env);
+				return;
+			case RECORDS_DLQ_NAME:
+				await drainDeadLetterBatch(batch, env);
+				return;
+			default:
+				console.error("[aggregator] unknown queue, acking batch", { queue: batch.queue });
+				for (const m of batch.messages) m.ack();
+		}
 	},
 
 	async scheduled(_event: ScheduledEvent, env: Env, ctx: ExecutionContext): Promise<void> {
