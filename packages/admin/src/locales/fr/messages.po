@@ -4567,7 +4567,7 @@ msgstr "Gardez cet onglet ouvert. L'importation s'exécute par petites étapes e
 
 #: packages/admin/src/components/ContentSettingsPanel.tsx:1014
 msgid "Keep typing to narrow down more bylines."
-msgstr "Poursuivez la saisie pour affiner davantage les collaborateurs."
+msgstr "Continuez à saisir pour affiner davantage les collaborateurs."
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:304
 #: packages/admin/src/components/SectionEditor.tsx:283
