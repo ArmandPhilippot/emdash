@@ -5857,7 +5857,7 @@ msgstr "Remplace le titre de la page dans les résultats des moteurs de recherch
 #: packages/admin/src/components/ContentSettingsPanel.tsx:646
 #: packages/admin/src/components/ContentSettingsPanel.tsx:649
 msgid "Ownership"
-msgstr "Propriété"
+msgstr "Responsabilité"
 
 #: packages/admin/src/components/PluginManager.tsx:592
 msgid "Package"
